@@ -1,0 +1,18 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "High-fidelity clone of The Shape of Intelligence exhibition (https://shapeofintelligence.com)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node server.js"
+  },
+  "keywords": [
+    "artificial-intelligence",
+    "exhibition",
+    "history",
+    "timeline"
+  ],
+  "author": "Clone by AI Pair Programmer",
+  "license": "CC-BY-4.0"
+}

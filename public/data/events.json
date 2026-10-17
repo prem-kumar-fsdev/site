@@ -1,0 +1,6474 @@
+{
+  "meta": {
+    "name": "The Shape of Intelligence — AI history dataset",
+    "license": "CC BY 4.0",
+    "attribution": "The Shape of Intelligence (https://shapeofintelligence.com)",
+    "generated": "2026-09-13",
+    "count": 169
+  },
+  "events": [
+    {
+      "title": "A logical calculus of nervous activity",
+      "date": "1943-12-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 5,
+      "summary": "McCulloch and Pitts show that a simplified neuron is a logic gate, and that networks of them can compute anything a Turing machine can.",
+      "people": [
+        "Warren McCulloch",
+        "Walter Pitts"
+      ],
+      "orgs": [
+        "University of Illinois College of Medicine",
+        "University of Chicago"
+      ],
+      "tags": [
+        "neuron",
+        "logic",
+        "root"
+      ],
+      "influences": [],
+      "instrument": "neuron",
+      "sources": [
+        {
+          "title": "A logical calculus of the ideas immanent in nervous activity (Bulletin of Mathematical Biophysics)",
+          "url": "https://doi.org/10.1007/BF02478259",
+          "type": "paper"
+        },
+        {
+          "title": "Full text of the 1943 paper (CMU copy)",
+          "url": "https://www.cs.cmu.edu/~./epxing/Class/10715/reading/McCulloch.and.Pitts.pdf",
+          "type": "archive"
+        }
+      ],
+      "id": "1943-mcculloch-pitts-neuron",
+      "year": 1943,
+      "eraKey": "prologue",
+      "words": 216
+    },
+    {
+      "title": "The stored-program computer",
+      "date": "1945-06-30",
+      "precision": "day",
+      "category": "hardware",
+      "significance": 3,
+      "summary": "Von Neumann's First Draft of a Report on the EDVAC lays out the stored-program architecture, and describes its logic in McCulloch–Pitts neurons.",
+      "people": [
+        "John von Neumann"
+      ],
+      "orgs": [
+        "Moore School of Electrical Engineering",
+        "University of Pennsylvania"
+      ],
+      "tags": [
+        "architecture",
+        "hardware"
+      ],
+      "influences": [
+        "1943-mcculloch-pitts-neuron"
+      ],
+      "sources": [
+        {
+          "title": "First Draft of a Report on the EDVAC (1945)",
+          "url": "https://web.mit.edu/STS.035/www/PDFs/edvac.pdf",
+          "type": "archive"
+        },
+        {
+          "title": "First Draft of a Report on the EDVAC, annotated reprint (IEEE Annals of the History of Computing)",
+          "url": "https://doi.org/10.1109/85.238389",
+          "type": "paper"
+        }
+      ],
+      "id": "1945-von-neumann-edvac-report",
+      "year": 1945,
+      "eraKey": "foundations",
+      "words": 192
+    },
+    {
+      "title": "A mathematical theory of communication",
+      "date": "1948-07-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 4,
+      "summary": "Shannon defines information as a measurable quantity, the bit, and gives the entropy and channel-capacity results that every model of language still rests on.",
+      "people": [
+        "Claude Shannon"
+      ],
+      "orgs": [
+        "Bell Telephone Laboratories"
+      ],
+      "tags": [
+        "information",
+        "entropy",
+        "language-models",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "A Mathematical Theory of Communication (Bell System Technical Journal)",
+          "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+          "type": "paper"
+        },
+        {
+          "title": "Reprint of the 1948 paper (Harvard mirror)",
+          "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf",
+          "type": "archive"
+        }
+      ],
+      "id": "1948-shannon-information-theory",
+      "year": 1948,
+      "eraKey": "foundations",
+      "words": 186
+    },
+    {
+      "title": "Cells that fire together wire together",
+      "date": "1949-01-01",
+      "precision": "year",
+      "category": "theory",
+      "significance": 4,
+      "summary": "Donald Hebb proposes that learning happens by strengthening the connection between neurons that are active at the same time, the first learning rule for a network.",
+      "people": [
+        "Donald Hebb"
+      ],
+      "orgs": [
+        "McGill University"
+      ],
+      "tags": [
+        "learning-rule",
+        "neuroscience",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "The Organization of Behavior: A Neuropsychological Theory (Wiley, 1949), full text",
+          "url": "https://archive.org/details/organizationofbe00hebb",
+          "type": "book"
+        },
+        {
+          "title": "The Organization of Behavior (2002 reissue)",
+          "url": "https://doi.org/10.4324/9781410612403",
+          "type": "book"
+        }
+      ],
+      "id": "1949-hebb-organization-of-behavior",
+      "year": 1949,
+      "eraKey": "foundations",
+      "words": 192
+    },
+    {
+      "title": "Programming a computer for playing chess",
+      "date": "1950-03-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Shannon sets out minimax search with an evaluation function and estimates the game tree at 10¹²⁰ positions, the plan Deep Blue followed 47 years later.",
+      "people": [
+        "Claude Shannon"
+      ],
+      "orgs": [
+        "Bell Telephone Laboratories"
+      ],
+      "tags": [
+        "games",
+        "search",
+        "chess"
+      ],
+      "influences": [
+        "1948-shannon-information-theory"
+      ],
+      "sources": [
+        {
+          "title": "Programming a Computer for Playing Chess (Philosophical Magazine, 1950)",
+          "url": "https://doi.org/10.1080/14786445008521796",
+          "type": "paper"
+        },
+        {
+          "title": "Text of the paper (mirror)",
+          "url": "https://www.pi.infn.it/~carosi/chess/shannon.txt",
+          "type": "archive"
+        }
+      ],
+      "id": "1950-shannon-chess",
+      "year": 1950,
+      "eraKey": "foundations",
+      "words": 202
+    },
+    {
+      "title": "Computing machinery and intelligence",
+      "date": "1950-10-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 5,
+      "summary": "Turing replaces the question 'can machines think?' with a test, predicts learning machines, and answers the objections that are still being raised today.",
+      "people": [
+        "Alan Turing"
+      ],
+      "orgs": [
+        "University of Manchester"
+      ],
+      "tags": [
+        "turing-test",
+        "philosophy",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "Computing Machinery and Intelligence (Mind, vol. LIX, no. 236)",
+          "url": "https://doi.org/10.1093/mind/LIX.236.433",
+          "type": "paper"
+        },
+        {
+          "title": "Computing Machinery and Intelligence at Oxford Academic",
+          "url": "https://academic.oup.com/mind/article/LIX/236/433/986238",
+          "type": "paper"
+        }
+      ],
+      "id": "1950-turing-computing-machinery",
+      "year": 1950,
+      "eraKey": "foundations",
+      "words": 229
+    },
+    {
+      "title": "SNARC, the first neural network machine",
+      "date": "1951-01-01",
+      "precision": "year",
+      "category": "hardware",
+      "significance": 3,
+      "summary": "Minsky and Edmonds build a 40-neuron learning machine from vacuum tubes and surplus bomber parts, wired to reinforce whatever it did last.",
+      "people": [
+        "Marvin Minsky",
+        "Dean Edmonds"
+      ],
+      "orgs": [
+        "Harvard University"
+      ],
+      "tags": [
+        "hardware",
+        "reinforcement",
+        "neural-network"
+      ],
+      "influences": [
+        "1943-mcculloch-pitts-neuron",
+        "1949-hebb-organization-of-behavior"
+      ],
+      "sources": [
+        {
+          "title": "Jeremy Bernstein, 'A.I.', The New Yorker, 14 December 1981 (profile of Minsky describing SNARC)",
+          "url": "https://www.newyorker.com/magazine/1981/12/14/a-i",
+          "type": "article"
+        },
+        {
+          "title": "Stochastic neural analog reinforcement calculator (summary and references)",
+          "url": "https://en.wikipedia.org/wiki/Stochastic_neural_analog_reinforcement_calculator",
+          "type": "archive"
+        }
+      ],
+      "id": "1951-snarc",
+      "year": 1951,
+      "eraKey": "foundations",
+      "words": 206
+    },
+    {
+      "title": "The Dartmouth workshop names the field",
+      "date": "1956-06-18",
+      "precision": "day",
+      "category": "culture",
+      "significance": 5,
+      "summary": "A two-month summer meeting at Dartmouth College, proposed under the new phrase 'artificial intelligence', gathers the people who will run the field for thirty years.",
+      "people": [
+        "John McCarthy",
+        "Marvin Minsky",
+        "Nathaniel Rochester",
+        "Claude Shannon"
+      ],
+      "orgs": [
+        "Dartmouth College",
+        "Rockefeller Foundation"
+      ],
+      "tags": [
+        "founding",
+        "community"
+      ],
+      "influences": [
+        "1950-turing-computing-machinery",
+        "1943-mcculloch-pitts-neuron",
+        "1948-shannon-information-theory"
+      ],
+      "sources": [
+        {
+          "title": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence (31 August 1955)",
+          "url": "http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf",
+          "type": "archive"
+        },
+        {
+          "title": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence (AI Magazine reprint, 2006)",
+          "url": "https://doi.org/10.1609/aimag.v27i4.1904",
+          "type": "paper"
+        },
+        {
+          "title": "Artificial Intelligence (AI) Coined at Dartmouth (Dartmouth College)",
+          "url": "https://home.dartmouth.edu/about/artificial-intelligence-ai-coined-dartmouth",
+          "type": "article"
+        }
+      ],
+      "id": "1956-dartmouth-workshop",
+      "year": 1956,
+      "eraKey": "foundations",
+      "words": 205
+    },
+    {
+      "title": "Logic Theorist proves its first theorems",
+      "date": "1956-09-01",
+      "precision": "month",
+      "category": "model",
+      "significance": 4,
+      "summary": "Newell, Shaw and Simon's program proves 38 theorems from Principia Mathematica by heuristic search, the first working artificial intelligence program.",
+      "people": [
+        "Allen Newell",
+        "Herbert Simon",
+        "Cliff Shaw"
+      ],
+      "orgs": [
+        "RAND Corporation",
+        "Carnegie Institute of Technology"
+      ],
+      "tags": [
+        "symbolic",
+        "search",
+        "reasoning"
+      ],
+      "influences": [
+        "1950-turing-computing-machinery"
+      ],
+      "sources": [
+        {
+          "title": "The logic theory machine: a complex information processing system (IRE Transactions on Information Theory, 1956)",
+          "url": "https://doi.org/10.1109/TIT.1956.1056797",
+          "type": "paper"
+        },
+        {
+          "title": "The Logic Theory Machine (RAND paper P-868)",
+          "url": "https://www.rand.org/pubs/papers/P868.html",
+          "type": "archive"
+        }
+      ],
+      "id": "1956-logic-theorist",
+      "year": 1956,
+      "eraKey": "foundations",
+      "words": 199
+    },
+    {
+      "title": "Lisp",
+      "date": "1958-01-01",
+      "precision": "year",
+      "category": "theory",
+      "significance": 3,
+      "summary": "McCarthy designs Lisp, a language built on recursion and symbolic lists, which becomes the native tongue of AI research for thirty years.",
+      "people": [
+        "John McCarthy"
+      ],
+      "orgs": [
+        "Massachusetts Institute of Technology"
+      ],
+      "tags": [
+        "language",
+        "symbolic",
+        "tools"
+      ],
+      "influences": [
+        "1956-dartmouth-workshop"
+      ],
+      "sources": [
+        {
+          "title": "Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I (Communications of the ACM, 1960)",
+          "url": "https://doi.org/10.1145/367177.367199",
+          "type": "paper"
+        },
+        {
+          "title": "History of Lisp (McCarthy, 1979)",
+          "url": "https://www-formal.stanford.edu/jmc/history/lisp/lisp.html",
+          "type": "archive"
+        }
+      ],
+      "id": "1958-lisp",
+      "year": 1958,
+      "eraKey": "foundations",
+      "words": 207
+    },
+    {
+      "title": "The perceptron learns",
+      "date": "1958-07-07",
+      "precision": "day",
+      "category": "theory",
+      "significance": 5,
+      "summary": "Rosenblatt's perceptron adjusts its own weights from examples; the US Navy demonstrates it and the press announces an 'embryo' that will walk, talk and reproduce.",
+      "people": [
+        "Frank Rosenblatt"
+      ],
+      "orgs": [
+        "Cornell Aeronautical Laboratory",
+        "Office of Naval Research"
+      ],
+      "tags": [
+        "learning-rule",
+        "neural-network",
+        "hype"
+      ],
+      "influences": [
+        "1943-mcculloch-pitts-neuron",
+        "1949-hebb-organization-of-behavior"
+      ],
+      "instrument": "perceptron",
+      "sources": [
+        {
+          "title": "The perceptron: a probabilistic model for information storage and organization in the brain (Psychological Review, 1958)",
+          "url": "https://doi.org/10.1037/h0042519",
+          "type": "paper"
+        },
+        {
+          "title": "New Navy Device Learns By Doing (The New York Times, 8 July 1958)",
+          "url": "https://www.nytimes.com/1958/07/08/archives/new-navy-device-learns-by-doing-psychologist-shows-embryo-of.html",
+          "type": "article"
+        }
+      ],
+      "id": "1958-perceptron",
+      "year": 1958,
+      "eraKey": "foundations",
+      "words": 227
+    },
+    {
+      "title": "Samuel's checkers program coins 'machine learning'",
+      "date": "1959-07-01",
+      "precision": "month",
+      "category": "model",
+      "significance": 4,
+      "summary": "Arthur Samuel's checkers player improves by playing itself and tuning its evaluation function, and his paper gives the field its name.",
+      "people": [
+        "Arthur Samuel"
+      ],
+      "orgs": [
+        "IBM"
+      ],
+      "tags": [
+        "games",
+        "reinforcement",
+        "self-play"
+      ],
+      "influences": [
+        "1950-shannon-chess"
+      ],
+      "sources": [
+        {
+          "title": "Some Studies in Machine Learning Using the Game of Checkers (IBM Journal of Research and Development, 1959)",
+          "url": "https://doi.org/10.1147/rd.33.0210",
+          "type": "paper"
+        },
+        {
+          "title": "IBM history: early computer games and Samuel's checkers",
+          "url": "https://www.ibm.com/history/early-games",
+          "type": "article"
+        }
+      ],
+      "id": "1959-samuel-machine-learning",
+      "year": 1959,
+      "eraKey": "foundations",
+      "words": 206
+    },
+    {
+      "title": "ADALINE and the least-mean-squares rule",
+      "date": "1960-08-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Widrow and Hoff's adaptive neuron learns by gradient descent on squared error, the delta rule that backpropagation later generalises.",
+      "people": [
+        "Bernard Widrow",
+        "Marcian Hoff"
+      ],
+      "orgs": [
+        "Stanford University"
+      ],
+      "tags": [
+        "learning-rule",
+        "gradient-descent"
+      ],
+      "influences": [
+        "1958-perceptron"
+      ],
+      "sources": [
+        {
+          "title": "Adaptive Switching Circuits (IRE WESCON Convention Record, 1960)",
+          "url": "https://www-isl.stanford.edu/~widrow/papers/c1960adaptiveswitching.pdf",
+          "type": "paper"
+        },
+        {
+          "title": "30 years of adaptive neural networks: perceptron, Madaline, and backpropagation (Proceedings of the IEEE, 1990)",
+          "url": "https://doi.org/10.1109/5.58323",
+          "type": "paper"
+        }
+      ],
+      "id": "1960-adaline-lms",
+      "year": 1960,
+      "eraKey": "foundations",
+      "words": 205
+    },
+    {
+      "title": "Unimate, the first industrial robot",
+      "date": "1961-01-01",
+      "precision": "year",
+      "category": "hardware",
+      "significance": 2,
+      "summary": "George Devol's programmable arm starts work on a General Motors line, lifting hot die-castings; robotics and AI begin as separate fields.",
+      "people": [
+        "George Devol",
+        "Joseph Engelberger"
+      ],
+      "orgs": [
+        "Unimation",
+        "General Motors"
+      ],
+      "tags": [
+        "robotics",
+        "industry",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "Unimate (Encyclopaedia Britannica)",
+          "url": "https://www.britannica.com/technology/Unimate",
+          "type": "article"
+        },
+        {
+          "title": "George Devol, National Inventors Hall of Fame",
+          "url": "https://www.invent.org/inductees/george-devol",
+          "type": "article"
+        }
+      ],
+      "id": "1961-unimate",
+      "year": 1961,
+      "eraKey": "foundations",
+      "words": 210
+    },
+    {
+      "title": "ARPA funds Project MAC",
+      "date": "1963-07-01",
+      "precision": "month",
+      "category": "policy",
+      "significance": 2,
+      "summary": "The US Advanced Research Projects Agency gives MIT $2.2 million for computing and AI research, beginning two decades of near-unconditional military funding.",
+      "people": [
+        "J. C. R. Licklider",
+        "Marvin Minsky",
+        "Robert Fano"
+      ],
+      "orgs": [
+        "Advanced Research Projects Agency",
+        "Massachusetts Institute of Technology"
+      ],
+      "tags": [
+        "funding",
+        "darpa"
+      ],
+      "influences": [
+        "1956-dartmouth-workshop"
+      ],
+      "sources": [
+        {
+          "title": "MIT CSAIL: mission and history",
+          "url": "https://www.csail.mit.edu/about/mission-history",
+          "type": "article"
+        },
+        {
+          "title": "Project MAC (Multicians history)",
+          "url": "https://www.multicians.org/project-mac.html",
+          "type": "archive"
+        }
+      ],
+      "id": "1963-project-mac",
+      "year": 1963,
+      "eraKey": "foundations",
+      "words": 184
+    },
+    {
+      "title": "DENDRAL, the first expert system",
+      "date": "1965-01-01",
+      "precision": "year",
+      "category": "model",
+      "significance": 3,
+      "summary": "Feigenbaum, Lederberg and Djerassi start a program that infers molecular structure from mass-spectrometry data using rules elicited from chemists.",
+      "people": [
+        "Edward Feigenbaum",
+        "Joshua Lederberg",
+        "Carl Djerassi",
+        "Bruce Buchanan"
+      ],
+      "orgs": [
+        "Stanford University"
+      ],
+      "tags": [
+        "expert-systems",
+        "knowledge",
+        "chemistry"
+      ],
+      "influences": [
+        "1956-logic-theorist"
+      ],
+      "sources": [
+        {
+          "title": "DENDRAL: a case study of the first expert system for scientific hypothesis formation (Artificial Intelligence, 1993)",
+          "url": "https://doi.org/10.1016/0004-3702(93)90068-M",
+          "type": "paper"
+        },
+        {
+          "title": "The Dendral Project (Joshua Lederberg papers, US National Library of Medicine)",
+          "url": "https://profiles.nlm.nih.gov/spotlight/bb/feature/dendral",
+          "type": "archive"
+        }
+      ],
+      "id": "1965-dendral",
+      "year": 1965,
+      "eraKey": "foundations",
+      "words": 198
+    },
+    {
+      "title": "Moore's law",
+      "date": "1965-04-19",
+      "precision": "day",
+      "category": "hardware",
+      "significance": 4,
+      "summary": "Gordon Moore observes that the number of components on a chip doubles every year, an exponential that would deliver the compute behind every later breakthrough.",
+      "people": [
+        "Gordon Moore"
+      ],
+      "orgs": [
+        "Fairchild Semiconductor"
+      ],
+      "tags": [
+        "compute",
+        "hardware",
+        "scaling",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "Cramming more components onto integrated circuits (Electronics, 19 April 1965)",
+          "url": "https://newsroom.intel.com/wp-content/uploads/sites/11/2018/05/moores-law-electronics.pdf",
+          "type": "archive"
+        },
+        {
+          "title": "Cramming more components onto integrated circuits (Proceedings of the IEEE reprint, 1998)",
+          "url": "https://doi.org/10.1109/JPROC.1998.658762",
+          "type": "paper"
+        }
+      ],
+      "id": "1965-moores-law",
+      "year": 1965,
+      "eraKey": "foundations",
+      "words": 199
+    },
+    {
+      "title": "ELIZA",
+      "date": "1966-01-01",
+      "precision": "month",
+      "category": "product",
+      "significance": 4,
+      "summary": "Weizenbaum's ELIZA turns a person's sentences back as a Rogerian therapist would; people confide in it, and its author spends the rest of his life alarmed.",
+      "people": [
+        "Joseph Weizenbaum"
+      ],
+      "orgs": [
+        "Massachusetts Institute of Technology"
+      ],
+      "tags": [
+        "chatbot",
+        "natural-language",
+        "culture"
+      ],
+      "influences": [
+        "1950-turing-computing-machinery"
+      ],
+      "sources": [
+        {
+          "title": "ELIZA: a computer program for the study of natural language communication between man and machine (Communications of the ACM, 1966)",
+          "url": "https://doi.org/10.1145/365153.365168",
+          "type": "paper"
+        },
+        {
+          "title": "ELIZA paper, full text (Stanford CS124 copy)",
+          "url": "https://web.stanford.edu/class/cs124/p36-weizenabaum.pdf",
+          "type": "archive"
+        }
+      ],
+      "id": "1966-eliza",
+      "year": 1966,
+      "eraKey": "foundations",
+      "words": 211
+    },
+    {
+      "title": "Shakey, the first mobile robot that reasons",
+      "date": "1966-01-01",
+      "precision": "year",
+      "category": "hardware",
+      "significance": 3,
+      "summary": "SRI's Shakey plans its own routes with a camera, a logic-based planner and the A* search algorithm, which its team invents for the job.",
+      "people": [
+        "Charles Rosen",
+        "Nils Nilsson",
+        "Peter Hart",
+        "Bertram Raphael"
+      ],
+      "orgs": [
+        "SRI International"
+      ],
+      "tags": [
+        "robotics",
+        "planning",
+        "search"
+      ],
+      "influences": [
+        "1956-dartmouth-workshop"
+      ],
+      "sources": [
+        {
+          "title": "Shakey the Robot (SRI International)",
+          "url": "https://www.sri.com/hoi/shakey-the-robot/",
+          "type": "article"
+        },
+        {
+          "title": "A Formal Basis for the Heuristic Determination of Minimum Cost Paths (IEEE Transactions on Systems Science and Cybernetics, 1968)",
+          "url": "https://doi.org/10.1109/TSSC.1968.300136",
+          "type": "paper"
+        }
+      ],
+      "id": "1966-shakey-robot",
+      "year": 1966,
+      "eraKey": "foundations",
+      "words": 204
+    },
+    {
+      "title": "The ALPAC report ends machine translation funding",
+      "date": "1966-11-01",
+      "precision": "month",
+      "category": "policy",
+      "significance": 2,
+      "summary": "A US government committee concludes machine translation is slower, worse and more expensive than human translation; funding stops for twenty years.",
+      "people": [
+        "John R. Pierce"
+      ],
+      "orgs": [
+        "National Academy of Sciences",
+        "National Research Council"
+      ],
+      "tags": [
+        "funding",
+        "translation",
+        "winter",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "Language and Machines: Computers in Translation and Linguistics (National Academies Press, 1966)",
+          "url": "https://nap.nationalacademies.org/catalog/9547/language-and-machines-computers-in-translation-and-linguistics",
+          "type": "archive"
+        },
+        {
+          "title": "ALPAC (background and consequences)",
+          "url": "https://en.wikipedia.org/wiki/ALPAC",
+          "type": "archive"
+        }
+      ],
+      "id": "1966-alpac-report",
+      "year": 1966,
+      "eraKey": "foundations",
+      "words": 188
+    },
+    {
+      "title": "Nearest neighbour classification",
+      "date": "1967-01-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Cover and Hart prove that classifying a point by its nearest labelled neighbour has at most twice the error of the best possible classifier.",
+      "people": [
+        "Thomas Cover",
+        "Peter Hart"
+      ],
+      "orgs": [
+        "Stanford University",
+        "SRI International"
+      ],
+      "tags": [
+        "statistics",
+        "classification",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "Nearest neighbor pattern classification (IEEE Transactions on Information Theory, 1967)",
+          "url": "https://doi.org/10.1109/TIT.1967.1053964",
+          "type": "paper"
+        }
+      ],
+      "id": "1967-nearest-neighbour",
+      "year": 1967,
+      "eraKey": "foundations",
+      "words": 199
+    },
+    {
+      "title": "HAL 9000",
+      "date": "1968-04-02",
+      "precision": "day",
+      "category": "culture",
+      "significance": 2,
+      "summary": "2001: A Space Odyssey gives the public a calm, competent, murderous computer; HAL fixes the popular image of machine intelligence for fifty years.",
+      "people": [
+        "Stanley Kubrick",
+        "Arthur C. Clarke",
+        "Marvin Minsky"
+      ],
+      "orgs": [
+        "Metro-Goldwyn-Mayer"
+      ],
+      "tags": [
+        "film",
+        "culture",
+        "safety",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "2001: A Space Odyssey (AFI Catalog of Feature Films)",
+          "url": "https://catalog.afi.com/Catalog/moviedetails/23670",
+          "type": "archive"
+        },
+        {
+          "title": "2001: A Space Odyssey (1968)",
+          "url": "https://www.imdb.com/title/tt0062622/",
+          "type": "article"
+        }
+      ],
+      "id": "1968-hal-9000",
+      "year": 1968,
+      "eraKey": "foundations",
+      "words": 197
+    },
+    {
+      "title": "Perceptrons",
+      "date": "1969-01-01",
+      "precision": "year",
+      "category": "theory",
+      "significance": 5,
+      "summary": "Minsky and Papert prove that a single-layer perceptron cannot learn XOR or connectedness; the book is read as a verdict on neural networks and the money leaves.",
+      "people": [
+        "Marvin Minsky",
+        "Seymour Papert"
+      ],
+      "orgs": [
+        "Massachusetts Institute of Technology"
+      ],
+      "tags": [
+        "neural-network",
+        "limits",
+        "winter"
+      ],
+      "influences": [
+        "1958-perceptron"
+      ],
+      "instrument": "perceptron",
+      "sources": [
+        {
+          "title": "Perceptrons: An Introduction to Computational Geometry (MIT Press, 1969)",
+          "url": "https://mitpress.mit.edu/9780262630221/perceptrons/",
+          "type": "book"
+        },
+        {
+          "title": "A sociological study of the official history of the perceptrons controversy (Social Studies of Science, 1996)",
+          "url": "https://doi.org/10.1177/030631296026003005",
+          "type": "paper"
+        }
+      ],
+      "id": "1969-perceptrons-book",
+      "year": 1969,
+      "eraKey": "foundations",
+      "words": 218
+    },
+    {
+      "title": "Reverse-mode automatic differentiation",
+      "date": "1970-01-01",
+      "precision": "year",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Seppo Linnainmaa's master's thesis gives the algorithm for computing all the derivatives of a nested function in one backward sweep, the mathematics of backpropagation.",
+      "people": [
+        "Seppo Linnainmaa"
+      ],
+      "orgs": [
+        "University of Helsinki"
+      ],
+      "tags": [
+        "gradients",
+        "mathematics",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "Taylor expansion of the accumulated rounding error (BIT Numerical Mathematics, 1976)",
+          "url": "https://doi.org/10.1007/BF01931367",
+          "type": "paper"
+        },
+        {
+          "title": "Who invented the reverse mode of differentiation? (Griewank, Documenta Mathematica, 2012)",
+          "url": "https://www.math.uni-bielefeld.de/documenta/vol-ismp/52_griewank-andreas-b.pdf",
+          "type": "paper"
+        }
+      ],
+      "id": "1970-linnainmaa-backprop",
+      "year": 1970,
+      "eraKey": "foundations",
+      "words": 200
+    },
+    {
+      "title": "SHRDLU understands a world of blocks",
+      "date": "1971-01-01",
+      "precision": "year",
+      "category": "model",
+      "significance": 3,
+      "summary": "Terry Winograd's program holds a real conversation about a simulated table of blocks, resolving pronouns and reasons; it is the high-water mark of hand-built language understanding.",
+      "people": [
+        "Terry Winograd"
+      ],
+      "orgs": [
+        "Massachusetts Institute of Technology"
+      ],
+      "tags": [
+        "natural-language",
+        "symbolic",
+        "planning"
+      ],
+      "influences": [
+        "1966-eliza",
+        "1958-lisp"
+      ],
+      "sources": [
+        {
+          "title": "Procedures as a Representation for Data in a Computer Program for Understanding Natural Language (MIT, 1971)",
+          "url": "https://dspace.mit.edu/handle/1721.1/7095",
+          "type": "paper"
+        },
+        {
+          "title": "SHRDLU (Terry Winograd's project page, Stanford)",
+          "url": "https://hci.stanford.edu/winograd/shrdlu/",
+          "type": "archive"
+        }
+      ],
+      "id": "1971-shrdlu",
+      "year": 1971,
+      "eraKey": "foundations",
+      "words": 212
+    },
+    {
+      "title": "Prolog",
+      "date": "1972-01-01",
+      "precision": "year",
+      "category": "theory",
+      "significance": 2,
+      "summary": "Colmerauer and Roussel create a language in which a program is a set of logical facts and rules, and running it is proving a theorem.",
+      "people": [
+        "Alain Colmerauer",
+        "Philippe Roussel",
+        "Robert Kowalski"
+      ],
+      "orgs": [
+        "Aix-Marseille University",
+        "University of Edinburgh"
+      ],
+      "tags": [
+        "language",
+        "logic",
+        "symbolic"
+      ],
+      "influences": [
+        "1958-lisp"
+      ],
+      "sources": [
+        {
+          "title": "The birth of Prolog (ACM SIGPLAN History of Programming Languages II, 1993)",
+          "url": "https://doi.org/10.1145/155360.155362",
+          "type": "paper"
+        }
+      ],
+      "id": "1972-prolog",
+      "year": 1972,
+      "eraKey": "foundations",
+      "words": 186
+    },
+    {
+      "title": "The Lighthill report",
+      "date": "1973-01-01",
+      "precision": "year",
+      "category": "policy",
+      "significance": 4,
+      "summary": "Sir James Lighthill's review for the UK Science Research Council finds AI has failed to deliver on its promises; British funding collapses and the first winter begins.",
+      "people": [
+        "James Lighthill",
+        "Donald Michie",
+        "John McCarthy"
+      ],
+      "orgs": [
+        "Science Research Council",
+        "University of Edinburgh"
+      ],
+      "tags": [
+        "funding",
+        "winter",
+        "review"
+      ],
+      "influences": [
+        "1969-perceptrons-book",
+        "1956-dartmouth-workshop"
+      ],
+      "sources": [
+        {
+          "title": "Artificial Intelligence: A General Survey (Lighthill, 1973), full text",
+          "url": "http://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/p001.htm",
+          "type": "archive"
+        }
+      ],
+      "id": "1973-lighthill-report",
+      "year": 1973,
+      "eraKey": "winter-1",
+      "words": 205
+    },
+    {
+      "title": "MYCIN diagnoses infections",
+      "date": "1974-01-01",
+      "precision": "year",
+      "category": "model",
+      "significance": 3,
+      "summary": "Shortliffe's MYCIN uses about 600 if-then rules with certainty factors to recommend antibiotics, matching specialists in blind evaluation but never used on a patient.",
+      "people": [
+        "Edward Shortliffe",
+        "Bruce Buchanan"
+      ],
+      "orgs": [
+        "Stanford University"
+      ],
+      "tags": [
+        "expert-systems",
+        "medicine",
+        "uncertainty"
+      ],
+      "influences": [
+        "1965-dendral"
+      ],
+      "sources": [
+        {
+          "title": "A model of inexact reasoning in medicine (Mathematical Biosciences, 1975)",
+          "url": "https://doi.org/10.1016/0025-5564(75)90047-4",
+          "type": "paper"
+        }
+      ],
+      "id": "1974-mycin",
+      "year": 1974,
+      "eraKey": "winter-1",
+      "words": 201
+    },
+    {
+      "title": "Werbos applies backpropagation to neural networks",
+      "date": "1974-08-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Paul Werbos's Harvard thesis 'Beyond Regression' describes training multi-layer networks by propagating errors backwards; almost nobody reads it for a decade.",
+      "people": [
+        "Paul Werbos"
+      ],
+      "orgs": [
+        "Harvard University"
+      ],
+      "tags": [
+        "gradients",
+        "neural-network",
+        "learning-rule"
+      ],
+      "influences": [
+        "1970-linnainmaa-backprop",
+        "1958-perceptron"
+      ],
+      "sources": [
+        {
+          "title": "The Roots of Backpropagation: From Ordered Derivatives to Neural Networks and Political Forecasting (Wiley, 1994), which reprints the 1974 thesis",
+          "url": "https://www.wiley.com/en-us/The+Roots+of+Backpropagation%3A+From+Ordered+Derivatives+to+Neural+Networks+and+Political+Forecasting-p-9780471598978",
+          "type": "book"
+        }
+      ],
+      "id": "1974-werbos-backprop",
+      "year": 1974,
+      "eraKey": "winter-1",
+      "words": 200
+    },
+    {
+      "title": "Genetic algorithms",
+      "date": "1975-01-01",
+      "precision": "year",
+      "category": "theory",
+      "significance": 2,
+      "summary": "John Holland's Adaptation in Natural and Artificial Systems formalises search by mutation, crossover and selection, an alternative to gradients that outlasts the winter.",
+      "people": [
+        "John Holland"
+      ],
+      "orgs": [
+        "University of Michigan"
+      ],
+      "tags": [
+        "evolution",
+        "optimisation",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "Adaptation in Natural and Artificial Systems (MIT Press edition)",
+          "url": "https://mitpress.mit.edu/9780262581110/adaptation-in-natural-and-artificial-systems/",
+          "type": "book"
+        }
+      ],
+      "id": "1975-genetic-algorithms",
+      "year": 1975,
+      "eraKey": "winter-1",
+      "words": 188
+    },
+    {
+      "title": "AAAI is founded",
+      "date": "1979-01-01",
+      "precision": "year",
+      "category": "culture",
+      "significance": 2,
+      "summary": "American AI researchers form their own society during the winter; its first conference, at Stanford in August 1980, draws a thousand people.",
+      "people": [
+        "Allen Newell",
+        "Edward Feigenbaum",
+        "Raj Reddy"
+      ],
+      "orgs": [
+        "Association for the Advancement of Artificial Intelligence"
+      ],
+      "tags": [
+        "community",
+        "conference"
+      ],
+      "influences": [
+        "1956-dartmouth-workshop"
+      ],
+      "sources": [
+        {
+          "title": "About AAAI",
+          "url": "https://aaai.org/about-aaai/",
+          "type": "article"
+        }
+      ],
+      "id": "1979-aaai-founded",
+      "year": 1979,
+      "eraKey": "winter-1",
+      "words": 200
+    },
+    {
+      "title": "The Stanford Cart crosses a room",
+      "date": "1979-01-01",
+      "precision": "year",
+      "category": "hardware",
+      "significance": 2,
+      "summary": "Hans Moravec's camera-guided cart navigates a chair-filled room on its own in about five hours, the first autonomous vehicle to steer by vision.",
+      "people": [
+        "Hans Moravec"
+      ],
+      "orgs": [
+        "Stanford University"
+      ],
+      "tags": [
+        "robotics",
+        "vision",
+        "autonomous-vehicles"
+      ],
+      "influences": [
+        "1966-shakey-robot"
+      ],
+      "sources": [
+        {
+          "title": "Obstacle Avoidance and Navigation in the Real World by a Seeing Robot Rover (Moravec, Stanford PhD thesis, 1980)",
+          "url": "https://www.ri.cmu.edu/publications/obstacle-avoidance-and-navigation-in-the-real-world-by-a-seeing-robot-rover/",
+          "type": "paper"
+        }
+      ],
+      "id": "1979-stanford-cart",
+      "year": 1979,
+      "eraKey": "winter-1",
+      "words": 195
+    },
+    {
+      "title": "XCON goes into production at DEC",
+      "date": "1980-01-01",
+      "precision": "month",
+      "category": "product",
+      "significance": 3,
+      "summary": "McDermott's R1, renamed XCON, configures VAX computer orders from rules and saves Digital Equipment an estimated $25 million a year; the expert-systems boom begins.",
+      "people": [
+        "John McDermott"
+      ],
+      "orgs": [
+        "Carnegie Mellon University",
+        "Digital Equipment Corporation"
+      ],
+      "tags": [
+        "expert-systems",
+        "industry"
+      ],
+      "influences": [
+        "1974-mycin"
+      ],
+      "sources": [
+        {
+          "title": "R1: A rule-based configurer of computer systems (Artificial Intelligence, 1982)",
+          "url": "https://doi.org/10.1016/0004-3702(82)90021-2",
+          "type": "paper"
+        }
+      ],
+      "id": "1980-xcon",
+      "year": 1980,
+      "eraKey": "winter-1",
+      "words": 208
+    },
+    {
+      "title": "The Neocognitron",
+      "date": "1980-04-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 4,
+      "summary": "Fukushima's layered network of local feature detectors and pooling recognises patterns regardless of position, the architecture of the convolutional network.",
+      "people": [
+        "Kunihiko Fukushima"
+      ],
+      "orgs": [
+        "NHK Science and Technology Research Laboratories"
+      ],
+      "tags": [
+        "vision",
+        "convolution",
+        "neural-network"
+      ],
+      "influences": [
+        "1958-perceptron"
+      ],
+      "sources": [
+        {
+          "title": "Neocognitron: a self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position (Biological Cybernetics, 1980)",
+          "url": "https://doi.org/10.1007/BF00344251",
+          "type": "paper"
+        }
+      ],
+      "id": "1980-neocognitron",
+      "year": 1980,
+      "eraKey": "winter-1",
+      "words": 194
+    },
+    {
+      "title": "Symbolics and the Lisp machine business",
+      "date": "1980-04-01",
+      "precision": "month",
+      "category": "hardware",
+      "significance": 2,
+      "summary": "MIT's Lisp machine spins out into Symbolics and Lisp Machines Inc., creating a hardware industry for AI whose collapse will mark the second winter.",
+      "people": [
+        "Richard Greenblatt",
+        "Russell Noftsker"
+      ],
+      "orgs": [
+        "Symbolics",
+        "Lisp Machines Inc.",
+        "MIT AI Laboratory"
+      ],
+      "tags": [
+        "hardware",
+        "lisp",
+        "industry"
+      ],
+      "influences": [
+        "1958-lisp"
+      ],
+      "sources": [
+        {
+          "title": "The Lisp Machine (MIT AI Memo 444, 1977)",
+          "url": "https://dspace.mit.edu/handle/1721.1/5751",
+          "type": "archive"
+        }
+      ],
+      "id": "1980-symbolics-lisp-machines",
+      "year": 1980,
+      "eraKey": "winter-1",
+      "words": 190
+    },
+    {
+      "title": "Self-organising maps",
+      "date": "1982-01-01",
+      "precision": "year",
+      "category": "theory",
+      "significance": 2,
+      "summary": "Teuvo Kohonen's network arranges its neurons so that similar inputs land on nearby units, learning a map of the data with no labels at all.",
+      "people": [
+        "Teuvo Kohonen"
+      ],
+      "orgs": [
+        "Helsinki University of Technology"
+      ],
+      "tags": [
+        "unsupervised",
+        "neural-network",
+        "visualisation"
+      ],
+      "influences": [
+        "1949-hebb-organization-of-behavior"
+      ],
+      "sources": [
+        {
+          "title": "Self-organized formation of topologically correct feature maps (Biological Cybernetics, 1982)",
+          "url": "https://doi.org/10.1007/BF00337288",
+          "type": "paper"
+        }
+      ],
+      "id": "1982-kohonen-self-organising-map",
+      "year": 1982,
+      "eraKey": "connection",
+      "words": 198
+    },
+    {
+      "title": "Japan launches the Fifth Generation project",
+      "date": "1982-04-01",
+      "precision": "month",
+      "category": "policy",
+      "significance": 3,
+      "summary": "Japan's MITI funds a ten-year national programme to build parallel machines that reason in logic; the West panics into funding of its own.",
+      "people": [
+        "Kazuhiro Fuchi"
+      ],
+      "orgs": [
+        "Ministry of International Trade and Industry",
+        "Institute for New Generation Computer Technology"
+      ],
+      "tags": [
+        "funding",
+        "prolog",
+        "national-programme"
+      ],
+      "influences": [
+        "1972-prolog"
+      ],
+      "sources": [
+        {
+          "title": "The fifth generation project, a trip report (Communications of the ACM, 1983)",
+          "url": "https://doi.org/10.1145/358150.358179",
+          "type": "paper"
+        }
+      ],
+      "id": "1982-fifth-generation-project",
+      "year": 1982,
+      "eraKey": "connection",
+      "words": 188
+    },
+    {
+      "title": "The Hopfield network",
+      "date": "1982-04-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 4,
+      "summary": "John Hopfield shows that a symmetric network of binary neurons has an energy function, and that memories can be stored as the minima it settles into.",
+      "people": [
+        "John Hopfield"
+      ],
+      "orgs": [
+        "California Institute of Technology",
+        "Bell Laboratories"
+      ],
+      "tags": [
+        "neural-network",
+        "memory",
+        "physics"
+      ],
+      "influences": [
+        "1949-hebb-organization-of-behavior",
+        "1943-mcculloch-pitts-neuron"
+      ],
+      "sources": [
+        {
+          "title": "Neural networks and physical systems with emergent collective computational abilities (PNAS, 1982)",
+          "url": "https://doi.org/10.1073/pnas.79.8.2554",
+          "type": "paper"
+        },
+        {
+          "title": "Scientific background to the 2024 Nobel Prize in Physics (Royal Swedish Academy of Sciences)",
+          "url": "https://www.nobelprize.org/prizes/physics/2024/advanced-information/",
+          "type": "article"
+        }
+      ],
+      "id": "1982-hopfield-network",
+      "year": 1982,
+      "eraKey": "connection",
+      "words": 200
+    },
+    {
+      "title": "DARPA's Strategic Computing Initiative",
+      "date": "1983-10-01",
+      "precision": "month",
+      "category": "policy",
+      "significance": 2,
+      "summary": "The US answers Japan with a billion-dollar programme for machine intelligence in weapons, funding a decade of expert systems, vision and autonomous vehicles.",
+      "people": [
+        "Robert Kahn",
+        "Robert Cooper"
+      ],
+      "orgs": [
+        "Defense Advanced Research Projects Agency"
+      ],
+      "tags": [
+        "funding",
+        "darpa",
+        "military"
+      ],
+      "influences": [
+        "1982-fifth-generation-project"
+      ],
+      "sources": [
+        {
+          "title": "Strategic Computing: DARPA and the Quest for Machine Intelligence, 1983–1993 (MIT Press, 2002)",
+          "url": "https://mitpress.mit.edu/9780262182263/strategic-computing/",
+          "type": "book"
+        }
+      ],
+      "id": "1983-strategic-computing-initiative",
+      "year": 1983,
+      "eraKey": "connection",
+      "words": 193
+    },
+    {
+      "title": "Cyc sets out to write down common sense",
+      "date": "1984-01-01",
+      "precision": "year",
+      "category": "model",
+      "significance": 2,
+      "summary": "Douglas Lenat begins a project to encode everything a person knows as logical assertions; forty years and millions of rules later it is still going.",
+      "people": [
+        "Douglas Lenat"
+      ],
+      "orgs": [
+        "Microelectronics and Computer Technology Corporation",
+        "Cycorp"
+      ],
+      "tags": [
+        "knowledge",
+        "symbolic",
+        "common-sense"
+      ],
+      "influences": [
+        "1974-mycin"
+      ],
+      "sources": [
+        {
+          "title": "CYC: Using Common Sense Knowledge to Overcome Brittleness and Knowledge Acquisition Bottlenecks (AI Magazine, 1986)",
+          "url": "https://doi.org/10.1609/aimag.v6i4.510",
+          "type": "paper"
+        }
+      ],
+      "id": "1984-cyc",
+      "year": 1984,
+      "eraKey": "connection",
+      "words": 208
+    },
+    {
+      "title": "'AI winter' is named",
+      "date": "1984-08-01",
+      "precision": "month",
+      "category": "culture",
+      "significance": 2,
+      "summary": "At the AAAI conference, Minsky and Schank warn that hype has outrun results and that a collapse in funding, an 'AI winter', is coming. It does.",
+      "people": [
+        "Marvin Minsky",
+        "Roger Schank",
+        "Drew McDermott"
+      ],
+      "orgs": [
+        "Association for the Advancement of Artificial Intelligence"
+      ],
+      "tags": [
+        "winter",
+        "hype",
+        "community"
+      ],
+      "influences": [
+        "1973-lighthill-report"
+      ],
+      "sources": [
+        {
+          "title": "The Dark Ages of AI: A Panel Discussion at AAAI-84 (AI Magazine, 1985)",
+          "url": "https://doi.org/10.1609/aimag.v6i3.494",
+          "type": "paper"
+        }
+      ],
+      "id": "1984-dark-ages-panel",
+      "year": 1984,
+      "eraKey": "connection",
+      "words": 198
+    },
+    {
+      "title": "The Terminator",
+      "date": "1984-10-26",
+      "precision": "day",
+      "category": "culture",
+      "significance": 1,
+      "summary": "James Cameron's film gives the world Skynet, a defence network that becomes self-aware and launches a war on humanity; the image never leaves the debate.",
+      "people": [
+        "James Cameron"
+      ],
+      "orgs": [
+        "Orion Pictures"
+      ],
+      "tags": [
+        "film",
+        "culture",
+        "safety",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "The Terminator (1984)",
+          "url": "https://www.imdb.com/title/tt0088247/",
+          "type": "article"
+        }
+      ],
+      "id": "1984-terminator",
+      "year": 1984,
+      "eraKey": "connection",
+      "words": 191
+    },
+    {
+      "title": "The Boltzmann machine",
+      "date": "1985-01-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Ackley, Hinton and Sejnowski add noise and hidden units to the Hopfield network and derive a learning rule, the first for a network with hidden layers.",
+      "people": [
+        "David Ackley",
+        "Geoffrey Hinton",
+        "Terrence Sejnowski"
+      ],
+      "orgs": [
+        "Carnegie Mellon University",
+        "Johns Hopkins University"
+      ],
+      "tags": [
+        "neural-network",
+        "learning-rule",
+        "generative"
+      ],
+      "influences": [
+        "1982-hopfield-network"
+      ],
+      "sources": [
+        {
+          "title": "A learning algorithm for Boltzmann machines (Cognitive Science, 1985)",
+          "url": "https://doi.org/10.1207/s15516709cog0901_7",
+          "type": "paper"
+        },
+        {
+          "title": "Scientific background to the 2024 Nobel Prize in Physics",
+          "url": "https://www.nobelprize.org/prizes/physics/2024/advanced-information/",
+          "type": "article"
+        }
+      ],
+      "id": "1985-boltzmann-machine",
+      "year": 1985,
+      "eraKey": "connection",
+      "words": 210
+    },
+    {
+      "title": "The Connection Machine",
+      "date": "1985-01-01",
+      "precision": "year",
+      "category": "hardware",
+      "significance": 2,
+      "summary": "Danny Hillis's 65,536-processor computer is designed to run brain-like computations in parallel; it finds its market in physics and databases instead.",
+      "people": [
+        "Danny Hillis"
+      ],
+      "orgs": [
+        "Thinking Machines Corporation",
+        "Massachusetts Institute of Technology"
+      ],
+      "tags": [
+        "hardware",
+        "parallel",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "The Connection Machine (MIT Press, 1985)",
+          "url": "https://mitpress.mit.edu/9780262081573/the-connection-machine/",
+          "type": "book"
+        }
+      ],
+      "id": "1985-connection-machine",
+      "year": 1985,
+      "eraKey": "connection",
+      "words": 196
+    },
+    {
+      "title": "ID3 and decision-tree learning",
+      "date": "1986-03-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Ross Quinlan's algorithm grows a tree of yes/no questions from data by choosing the split with the most information gain; it becomes industry's workhorse.",
+      "people": [
+        "Ross Quinlan"
+      ],
+      "orgs": [
+        "University of Sydney"
+      ],
+      "tags": [
+        "statistics",
+        "trees",
+        "interpretability",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "Induction of decision trees (Machine Learning, 1986)",
+          "url": "https://doi.org/10.1007/BF00116251",
+          "type": "paper"
+        }
+      ],
+      "id": "1986-id3-decision-trees",
+      "year": 1986,
+      "eraKey": "connection",
+      "words": 204
+    },
+    {
+      "title": "Backpropagation",
+      "date": "1986-10-09",
+      "precision": "day",
+      "category": "theory",
+      "significance": 5,
+      "summary": "Rumelhart, Hinton and Williams show that multi-layer networks can learn internal representations by propagating errors backwards; Perceptrons is answered.",
+      "people": [
+        "David Rumelhart",
+        "Geoffrey Hinton",
+        "Ronald Williams"
+      ],
+      "orgs": [
+        "University of California San Diego",
+        "Carnegie Mellon University"
+      ],
+      "tags": [
+        "gradients",
+        "neural-network",
+        "learning-rule"
+      ],
+      "influences": [
+        "1974-werbos-backprop",
+        "1970-linnainmaa-backprop",
+        "1960-adaline-lms",
+        "1969-perceptrons-book"
+      ],
+      "instrument": "descent",
+      "sources": [
+        {
+          "title": "Learning representations by back-propagating errors (Nature, 9 October 1986)",
+          "url": "https://doi.org/10.1038/323533a0",
+          "type": "paper"
+        },
+        {
+          "title": "Learning representations by back-propagating errors (Nature article page)",
+          "url": "https://www.nature.com/articles/323533a0",
+          "type": "paper"
+        },
+        {
+          "title": "Scientific background to the 2024 Nobel Prize in Physics",
+          "url": "https://www.nobelprize.org/prizes/physics/2024/advanced-information/",
+          "type": "article"
+        }
+      ],
+      "id": "1986-backpropagation",
+      "year": 1986,
+      "eraKey": "connection",
+      "words": 233
+    },
+    {
+      "title": "The Lisp machine market collapses",
+      "date": "1987-01-01",
+      "precision": "year",
+      "era": "winter-2",
+      "category": "culture",
+      "significance": 3,
+      "summary": "Specialised AI hardware worth half a billion dollars a year loses to cheaper workstations; expert-systems firms follow, and the second winter begins.",
+      "people": [
+        "Russell Noftsker"
+      ],
+      "orgs": [
+        "Symbolics",
+        "Lisp Machines Inc.",
+        "Texas Instruments"
+      ],
+      "tags": [
+        "winter",
+        "industry",
+        "hardware"
+      ],
+      "influences": [
+        "1980-symbolics-lisp-machines",
+        "1980-xcon"
+      ],
+      "sources": [
+        {
+          "title": "AI: The Tumultuous History of the Search for Artificial Intelligence (Crevier, 1993), full text",
+          "url": "https://archive.org/details/aitumultuoushist00crev",
+          "type": "book"
+        }
+      ],
+      "id": "1987-ai-hardware-crash",
+      "year": 1987,
+      "eraKey": "winter-2",
+      "words": 205
+    },
+    {
+      "title": "NETtalk learns to read aloud",
+      "date": "1987-01-01",
+      "precision": "year",
+      "category": "model",
+      "significance": 3,
+      "summary": "Sejnowski and Rosenberg's backpropagation network learns to pronounce English text; a recording of it babbling and then speaking makes the case in public.",
+      "people": [
+        "Terrence Sejnowski",
+        "Charles Rosenberg"
+      ],
+      "orgs": [
+        "Johns Hopkins University",
+        "Princeton University"
+      ],
+      "tags": [
+        "speech",
+        "neural-network",
+        "demo"
+      ],
+      "influences": [
+        "1986-backpropagation"
+      ],
+      "sources": [
+        {
+          "title": "Parallel networks that learn to pronounce English text (Complex Systems, 1987)",
+          "url": "https://www.complex-systems.com/abstracts/v01_i01_a10/",
+          "type": "paper"
+        }
+      ],
+      "id": "1987-nettalk",
+      "year": 1987,
+      "eraKey": "connection",
+      "words": 200
+    },
+    {
+      "title": "The first NIPS conference",
+      "date": "1987-11-01",
+      "precision": "month",
+      "category": "culture",
+      "significance": 2,
+      "summary": "Neural Information Processing Systems meets in Denver, bringing physicists, neuroscientists and computer scientists into one room; it becomes the field's main stage.",
+      "people": [
+        "Terrence Sejnowski",
+        "Yaser Abu-Mostafa"
+      ],
+      "orgs": [
+        "NeurIPS Foundation"
+      ],
+      "tags": [
+        "community",
+        "conference"
+      ],
+      "influences": [
+        "1986-backpropagation"
+      ],
+      "sources": [
+        {
+          "title": "Proceedings of the first NIPS conference, Denver, 1987",
+          "url": "https://papers.nips.cc/paper_files/paper/1987",
+          "type": "archive"
+        }
+      ],
+      "id": "1987-nips-conference",
+      "year": 1987,
+      "eraKey": "connection",
+      "words": 189
+    },
+    {
+      "title": "Bayesian networks",
+      "date": "1988-01-01",
+      "precision": "year",
+      "category": "theory",
+      "significance": 4,
+      "summary": "Judea Pearl's book makes probability the language of uncertain reasoning, replacing the ad hoc certainty factors of expert systems with graphs of causes.",
+      "people": [
+        "Judea Pearl"
+      ],
+      "orgs": [
+        "University of California Los Angeles"
+      ],
+      "tags": [
+        "probability",
+        "reasoning",
+        "causality",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference (Morgan Kaufmann, 1988)",
+          "url": "https://www.sciencedirect.com/book/9780080514895/probabilistic-reasoning-in-intelligent-systems",
+          "type": "book"
+        },
+        {
+          "title": "Judea Pearl, ACM A.M. Turing Award 2011",
+          "url": "https://amturing.acm.org/award_winners/pearl_2658896.cfm",
+          "type": "article"
+        }
+      ],
+      "id": "1988-pearl-probabilistic-reasoning",
+      "year": 1988,
+      "eraKey": "winter-2",
+      "words": 193
+    },
+    {
+      "title": "Temporal-difference learning",
+      "date": "1988-08-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 4,
+      "summary": "Richard Sutton formalises learning from the difference between successive predictions, the method inside Samuel's checkers player, TD-Gammon and AlphaGo.",
+      "people": [
+        "Richard Sutton"
+      ],
+      "orgs": [
+        "GTE Laboratories",
+        "University of Massachusetts Amherst"
+      ],
+      "tags": [
+        "reinforcement",
+        "prediction",
+        "learning-rule"
+      ],
+      "influences": [
+        "1959-samuel-machine-learning"
+      ],
+      "sources": [
+        {
+          "title": "Learning to predict by the methods of temporal differences (Machine Learning, 1988)",
+          "url": "https://doi.org/10.1007/BF00115009",
+          "type": "paper"
+        }
+      ],
+      "id": "1988-temporal-difference-learning",
+      "year": 1988,
+      "eraKey": "winter-2",
+      "words": 202
+    },
+    {
+      "title": "ALVINN drives a van with a neural network",
+      "date": "1989-01-01",
+      "precision": "year",
+      "category": "model",
+      "significance": 2,
+      "summary": "Dean Pomerleau's three-layer network steers Carnegie Mellon's Navlab from camera images, trained on a human driver; the first learned self-driving system.",
+      "people": [
+        "Dean Pomerleau"
+      ],
+      "orgs": [
+        "Carnegie Mellon University",
+        "Defense Advanced Research Projects Agency"
+      ],
+      "tags": [
+        "autonomous-vehicles",
+        "neural-network",
+        "imitation"
+      ],
+      "influences": [
+        "1986-backpropagation",
+        "1979-stanford-cart"
+      ],
+      "sources": [
+        {
+          "title": "ALVINN: An Autonomous Land Vehicle in a Neural Network (Carnegie Mellon, 1989)",
+          "url": "https://www.ri.cmu.edu/publications/alvinn-an-autonomous-land-vehicle-in-a-neural-network/",
+          "type": "paper"
+        }
+      ],
+      "id": "1989-alvinn",
+      "year": 1989,
+      "eraKey": "winter-2",
+      "words": 207
+    },
+    {
+      "title": "Q-learning",
+      "date": "1989-01-01",
+      "precision": "year",
+      "category": "theory",
+      "significance": 4,
+      "summary": "Chris Watkins's thesis gives an algorithm that learns the value of every action in every state from experience alone, with a proof that it converges to the best policy.",
+      "people": [
+        "Chris Watkins",
+        "Peter Dayan"
+      ],
+      "orgs": [
+        "University of Cambridge"
+      ],
+      "tags": [
+        "reinforcement",
+        "control",
+        "learning-rule"
+      ],
+      "influences": [
+        "1988-temporal-difference-learning"
+      ],
+      "sources": [
+        {
+          "title": "Learning from Delayed Rewards (Watkins, PhD thesis, University of Cambridge, 1989)",
+          "url": "http://www.cs.rhul.ac.uk/~chrisw/new_thesis.pdf",
+          "type": "paper"
+        },
+        {
+          "title": "Q-learning (Watkins and Dayan, Machine Learning, 1992)",
+          "url": "https://doi.org/10.1007/BF00992698",
+          "type": "paper"
+        }
+      ],
+      "id": "1989-q-learning",
+      "year": 1989,
+      "eraKey": "winter-2",
+      "words": 201
+    },
+    {
+      "title": "The universal approximation theorem",
+      "date": "1989-01-01",
+      "precision": "year",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Cybenko, and separately Hornik, Stinchcombe and White, prove that one hidden layer of sigmoid units can approximate any continuous function; the question becomes learning, not capacity.",
+      "people": [
+        "George Cybenko",
+        "Kurt Hornik",
+        "Maxwell Stinchcombe",
+        "Halbert White"
+      ],
+      "orgs": [
+        "University of Illinois",
+        "Technische Universität Wien",
+        "University of California San Diego"
+      ],
+      "tags": [
+        "mathematics",
+        "neural-network"
+      ],
+      "influences": [
+        "1986-backpropagation",
+        "1969-perceptrons-book"
+      ],
+      "sources": [
+        {
+          "title": "Approximation by superpositions of a sigmoidal function (Mathematics of Control, Signals and Systems, 1989)",
+          "url": "https://doi.org/10.1007/BF02551274",
+          "type": "paper"
+        },
+        {
+          "title": "Multilayer feedforward networks are universal approximators (Neural Networks, 1989)",
+          "url": "https://doi.org/10.1016/0893-6080(89)90020-8",
+          "type": "paper"
+        }
+      ],
+      "id": "1989-universal-approximation",
+      "year": 1989,
+      "eraKey": "winter-2",
+      "words": 203
+    },
+    {
+      "title": "LeNet reads handwritten postcodes",
+      "date": "1989-12-01",
+      "precision": "month",
+      "category": "model",
+      "significance": 4,
+      "summary": "Yann LeCun trains a convolutional network by backpropagation on US Postal Service digits; the first deep network in real use, and the ancestor of AlexNet.",
+      "people": [
+        "Yann LeCun",
+        "Bernhard Boser",
+        "John Denker"
+      ],
+      "orgs": [
+        "AT&T Bell Laboratories"
+      ],
+      "tags": [
+        "vision",
+        "convolution",
+        "neural-network"
+      ],
+      "influences": [
+        "1980-neocognitron",
+        "1986-backpropagation"
+      ],
+      "instrument": "convolution",
+      "sources": [
+        {
+          "title": "Backpropagation applied to handwritten zip code recognition (Neural Computation, 1989)",
+          "url": "https://doi.org/10.1162/neco.1989.1.4.541",
+          "type": "paper"
+        }
+      ],
+      "id": "1989-lenet",
+      "year": 1989,
+      "eraKey": "winter-2",
+      "words": 208
+    },
+    {
+      "title": "Finding structure in time",
+      "date": "1990-01-01",
+      "precision": "year",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Jeffrey Elman's recurrent network feeds its own hidden state back as input and learns grammar-like structure from sequences of words with no labels.",
+      "people": [
+        "Jeffrey Elman"
+      ],
+      "orgs": [
+        "University of California San Diego"
+      ],
+      "tags": [
+        "recurrent",
+        "language",
+        "neural-network"
+      ],
+      "influences": [
+        "1986-backpropagation"
+      ],
+      "sources": [
+        {
+          "title": "Finding structure in time (Cognitive Science, 1990)",
+          "url": "https://doi.org/10.1207/s15516709cog1402_1",
+          "type": "paper"
+        }
+      ],
+      "id": "1990-elman-network",
+      "year": 1990,
+      "eraKey": "winter-2",
+      "words": 213
+    },
+    {
+      "title": "Boosting: weak learners made strong",
+      "date": "1990-06-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 2,
+      "summary": "Robert Schapire proves that any learner slightly better than chance can be combined into one as accurate as you like; ensembles become a science.",
+      "people": [
+        "Robert Schapire",
+        "Yoav Freund"
+      ],
+      "orgs": [
+        "Massachusetts Institute of Technology",
+        "AT&T Bell Laboratories"
+      ],
+      "tags": [
+        "statistics",
+        "ensembles",
+        "theory",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "The strength of weak learnability (Machine Learning, 1990)",
+          "url": "https://doi.org/10.1007/BF00116037",
+          "type": "paper"
+        }
+      ],
+      "id": "1990-boosting",
+      "year": 1990,
+      "eraKey": "winter-2",
+      "words": 193
+    },
+    {
+      "title": "The vanishing gradient problem",
+      "date": "1991-06-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Sepp Hochreiter's diploma thesis shows why deep and recurrent networks fail to learn: error signals shrink exponentially as they travel back through layers.",
+      "people": [
+        "Sepp Hochreiter",
+        "Jürgen Schmidhuber"
+      ],
+      "orgs": [
+        "Technische Universität München"
+      ],
+      "tags": [
+        "gradients",
+        "recurrent",
+        "limits"
+      ],
+      "influences": [
+        "1986-backpropagation",
+        "1990-elman-network"
+      ],
+      "sources": [
+        {
+          "title": "Untersuchungen zu dynamischen neuronalen Netzen (Hochreiter, diploma thesis, TU München, 1991)",
+          "url": "https://people.idsia.ch/~juergen/SeppHochreiter1991ThesisAdvisorSchmidhuber.pdf",
+          "type": "paper"
+        }
+      ],
+      "id": "1991-vanishing-gradient",
+      "year": 1991,
+      "eraKey": "winter-2",
+      "words": 197
+    },
+    {
+      "title": "The first Loebner Prize",
+      "date": "1991-11-08",
+      "precision": "day",
+      "category": "culture",
+      "significance": 1,
+      "summary": "The Turing test becomes an annual contest in Boston; the winning program fools judges by making typing errors, and the test's weaknesses become a spectacle.",
+      "people": [
+        "Hugh Loebner",
+        "Joseph Weintraub"
+      ],
+      "orgs": [
+        "Cambridge Center for Behavioral Studies"
+      ],
+      "tags": [
+        "turing-test",
+        "chatbot",
+        "culture"
+      ],
+      "influences": [
+        "1950-turing-computing-machinery",
+        "1966-eliza"
+      ],
+      "sources": [
+        {
+          "title": "Loebner Prize (history and results)",
+          "url": "https://en.wikipedia.org/wiki/Loebner_Prize",
+          "type": "archive"
+        }
+      ],
+      "id": "1991-loebner-prize",
+      "year": 1991,
+      "eraKey": "winter-2",
+      "words": 197
+    },
+    {
+      "title": "TD-Gammon reaches world-class backgammon",
+      "date": "1992-05-01",
+      "precision": "month",
+      "category": "model",
+      "significance": 4,
+      "summary": "Gerald Tesauro's network learns backgammon by playing itself with temporal-difference learning and reaches the level of the best humans, changing how they play.",
+      "people": [
+        "Gerald Tesauro"
+      ],
+      "orgs": [
+        "IBM"
+      ],
+      "tags": [
+        "games",
+        "reinforcement",
+        "self-play",
+        "neural-network"
+      ],
+      "influences": [
+        "1988-temporal-difference-learning",
+        "1986-backpropagation",
+        "1959-samuel-machine-learning"
+      ],
+      "sources": [
+        {
+          "title": "Practical issues in temporal difference learning (Machine Learning, 1992)",
+          "url": "https://doi.org/10.1007/BF00992697",
+          "type": "paper"
+        },
+        {
+          "title": "Temporal difference learning and TD-Gammon (Communications of the ACM, 1995)",
+          "url": "https://doi.org/10.1145/203330.203343",
+          "type": "paper"
+        }
+      ],
+      "id": "1992-td-gammon",
+      "year": 1992,
+      "eraKey": "winter-2",
+      "words": 216
+    },
+    {
+      "title": "The Fifth Generation project ends",
+      "date": "1992-06-01",
+      "precision": "month",
+      "category": "policy",
+      "significance": 2,
+      "summary": "Japan's ten-year programme closes with good parallel machines and none of the reasoning computers it promised; the last large bet on symbolic AI is written off.",
+      "people": [
+        "Kazuhiro Fuchi"
+      ],
+      "orgs": [
+        "Institute for New Generation Computer Technology",
+        "Ministry of International Trade and Industry"
+      ],
+      "tags": [
+        "winter",
+        "funding",
+        "national-programme"
+      ],
+      "influences": [
+        "1982-fifth-generation-project"
+      ],
+      "sources": [
+        {
+          "title": "'Fifth Generation' Became Japan's Lost Generation (The New York Times, 5 June 1992)",
+          "url": "https://www.nytimes.com/1992/06/05/business/fifth-generation-became-japan-s-lost-generation.html",
+          "type": "article"
+        }
+      ],
+      "id": "1992-fifth-generation-ends",
+      "year": 1992,
+      "eraKey": "winter-2",
+      "words": 205
+    },
+    {
+      "title": "Chinook becomes checkers champion",
+      "date": "1994-08-01",
+      "precision": "month",
+      "category": "culture",
+      "significance": 2,
+      "summary": "Jonathan Schaeffer's program takes the world checkers title when Marion Tinsley, the greatest human player, withdraws ill; the first world title held by a machine.",
+      "people": [
+        "Jonathan Schaeffer",
+        "Marion Tinsley"
+      ],
+      "orgs": [
+        "University of Alberta"
+      ],
+      "tags": [
+        "games",
+        "search"
+      ],
+      "influences": [
+        "1959-samuel-machine-learning"
+      ],
+      "sources": [
+        {
+          "title": "CHINOOK: The World Man-Machine Checkers Champion (AI Magazine, 1996)",
+          "url": "https://doi.org/10.1609/aimag.v17i1.1208",
+          "type": "paper"
+        }
+      ],
+      "id": "1994-chinook",
+      "year": 1994,
+      "eraKey": "statistics",
+      "words": 195
+    },
+    {
+      "title": "Support-vector machines",
+      "date": "1995-09-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 4,
+      "summary": "Cortes and Vapnik's classifier finds the widest margin between classes and, with the kernel trick, does it in spaces of any dimension; it rules the field for a decade.",
+      "people": [
+        "Corinna Cortes",
+        "Vladimir Vapnik"
+      ],
+      "orgs": [
+        "AT&T Bell Laboratories"
+      ],
+      "tags": [
+        "statistics",
+        "kernels",
+        "classification",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "Support-vector networks (Machine Learning, 1995)",
+          "url": "https://doi.org/10.1007/BF00994018",
+          "type": "paper"
+        }
+      ],
+      "id": "1995-support-vector-machines",
+      "year": 1995,
+      "eraKey": "statistics",
+      "words": 213
+    },
+    {
+      "title": "Deep Blue beats Kasparov",
+      "date": "1997-05-11",
+      "precision": "day",
+      "category": "model",
+      "significance": 5,
+      "summary": "IBM's chess machine wins a six-game match against the world champion, 3.5 to 2.5; chess falls to search, and the public takes it as a verdict on thinking.",
+      "people": [
+        "Garry Kasparov",
+        "Feng-hsiung Hsu",
+        "Murray Campbell",
+        "Joseph Hoane"
+      ],
+      "orgs": [
+        "IBM"
+      ],
+      "tags": [
+        "games",
+        "search",
+        "culture"
+      ],
+      "influences": [
+        "1950-shannon-chess",
+        "1959-samuel-machine-learning"
+      ],
+      "sources": [
+        {
+          "title": "Deep Blue (IBM history)",
+          "url": "https://www.ibm.com/history/deep-blue",
+          "type": "article"
+        },
+        {
+          "title": "Deep Blue (Artificial Intelligence, 2002)",
+          "url": "https://doi.org/10.1016/S0004-3702(01)00129-1",
+          "type": "paper"
+        }
+      ],
+      "id": "1997-deep-blue",
+      "year": 1997,
+      "eraKey": "statistics",
+      "words": 206
+    },
+    {
+      "title": "Long short-term memory",
+      "date": "1997-11-15",
+      "precision": "day",
+      "category": "theory",
+      "significance": 5,
+      "summary": "Hochreiter and Schmidhuber's memory cell with gates lets recurrent networks learn across a thousand steps; it becomes the engine of speech, translation and text until 2017.",
+      "people": [
+        "Sepp Hochreiter",
+        "Jürgen Schmidhuber"
+      ],
+      "orgs": [
+        "Technische Universität München",
+        "IDSIA"
+      ],
+      "tags": [
+        "recurrent",
+        "memory",
+        "neural-network",
+        "sequence-models"
+      ],
+      "influences": [
+        "1991-vanishing-gradient",
+        "1990-elman-network"
+      ],
+      "sources": [
+        {
+          "title": "Long Short-Term Memory (Neural Computation, 1997)",
+          "url": "https://doi.org/10.1162/neco.1997.9.8.1735",
+          "type": "paper"
+        },
+        {
+          "title": "Long Short-Term Memory (MIT Press Direct)",
+          "url": "https://direct.mit.edu/neco/article/9/8/1735/6109/Long-Short-Term-Memory",
+          "type": "paper"
+        }
+      ],
+      "id": "1997-lstm",
+      "year": 1997,
+      "eraKey": "statistics",
+      "words": 210
+    },
+    {
+      "title": "PageRank and the anatomy of Google",
+      "date": "1998-04-01",
+      "precision": "month",
+      "category": "product",
+      "significance": 3,
+      "summary": "Brin and Page rank web pages by the links between them, an eigenvector of the web; search becomes the first application of statistics to the whole internet.",
+      "people": [
+        "Sergey Brin",
+        "Larry Page"
+      ],
+      "orgs": [
+        "Stanford University"
+      ],
+      "tags": [
+        "search",
+        "web",
+        "data",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "The anatomy of a large-scale hypertextual Web search engine (Computer Networks, 1998)",
+          "url": "https://doi.org/10.1016/S0169-7552(98)00110-X",
+          "type": "paper"
+        },
+        {
+          "title": "The Anatomy of a Large-Scale Hypertextual Web Search Engine (Stanford InfoLab)",
+          "url": "http://infolab.stanford.edu/~backrub/google.html",
+          "type": "archive"
+        }
+      ],
+      "id": "1998-pagerank",
+      "year": 1998,
+      "eraKey": "statistics",
+      "words": 203
+    },
+    {
+      "title": "MNIST and LeNet-5",
+      "date": "1998-11-01",
+      "precision": "month",
+      "category": "data",
+      "significance": 4,
+      "summary": "LeCun, Bottou, Bengio and Haffner's paper fixes the convolutional network design and releases the 70,000-digit dataset that becomes the field's first shared yardstick.",
+      "people": [
+        "Yann LeCun",
+        "Léon Bottou",
+        "Yoshua Bengio",
+        "Patrick Haffner"
+      ],
+      "orgs": [
+        "AT&T Labs-Research"
+      ],
+      "tags": [
+        "benchmark",
+        "vision",
+        "convolution"
+      ],
+      "influences": [
+        "1989-lenet"
+      ],
+      "sources": [
+        {
+          "title": "Gradient-based learning applied to document recognition (Proceedings of the IEEE, 1998)",
+          "url": "https://doi.org/10.1109/5.726791",
+          "type": "paper"
+        },
+        {
+          "title": "The MNIST database of handwritten digits",
+          "url": "http://yann.lecun.com/exdb/mnist/",
+          "type": "dataset"
+        }
+      ],
+      "id": "1998-mnist-lenet5",
+      "year": 1998,
+      "eraKey": "statistics",
+      "words": 194
+    },
+    {
+      "title": "The first GPU",
+      "date": "1999-08-31",
+      "precision": "day",
+      "category": "hardware",
+      "significance": 3,
+      "summary": "NVIDIA's GeForce 256 puts geometry transformation and lighting on a single chip and calls it a graphics processing unit; the hardware of deep learning arrives for games.",
+      "people": [
+        "Jensen Huang"
+      ],
+      "orgs": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "hardware",
+        "gpu",
+        "compute"
+      ],
+      "influences": [
+        "1965-moores-law"
+      ],
+      "sources": [
+        {
+          "title": "NVIDIA corporate timeline",
+          "url": "https://www.nvidia.com/en-us/about-nvidia/corporate-timeline/",
+          "type": "article"
+        }
+      ],
+      "id": "1999-geforce-256",
+      "year": 1999,
+      "eraKey": "statistics",
+      "words": 196
+    },
+    {
+      "title": "ASIMO walks",
+      "date": "2000-10-31",
+      "precision": "day",
+      "category": "hardware",
+      "significance": 1,
+      "summary": "Honda unveils a 1.2-metre humanoid that walks, climbs stairs and shakes hands; the public image of the robot updates, and the intelligence inside stays scripted.",
+      "people": [],
+      "orgs": [
+        "Honda"
+      ],
+      "tags": [
+        "robotics",
+        "humanoid",
+        "culture"
+      ],
+      "influences": [
+        "1961-unimate"
+      ],
+      "sources": [
+        {
+          "title": "ASIMO (history and specifications)",
+          "url": "https://en.wikipedia.org/wiki/ASIMO",
+          "type": "archive"
+        }
+      ],
+      "id": "2000-asimo",
+      "year": 2000,
+      "eraKey": "statistics",
+      "words": 188
+    },
+    {
+      "title": "Wikipedia launches",
+      "date": "2001-01-15",
+      "precision": "day",
+      "category": "data",
+      "significance": 2,
+      "summary": "A free encyclopaedia anyone can edit goes live; two decades later its text is in the training data of every language model and is the largest single curated corpus on Earth.",
+      "people": [
+        "Jimmy Wales",
+        "Larry Sanger"
+      ],
+      "orgs": [
+        "Wikimedia Foundation"
+      ],
+      "tags": [
+        "data",
+        "corpus",
+        "web",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "Wikimedia Foundation: about",
+          "url": "https://wikimediafoundation.org/about/",
+          "type": "article"
+        },
+        {
+          "title": "History of Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/History_of_Wikipedia",
+          "type": "archive"
+        }
+      ],
+      "id": "2001-wikipedia",
+      "year": 2001,
+      "eraKey": "statistics",
+      "words": 218
+    },
+    {
+      "title": "Random forests",
+      "date": "2001-10-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Leo Breiman averages hundreds of decision trees, each grown on a random sample of data and features, and gets a method that is accurate, robust and hard to overfit.",
+      "people": [
+        "Leo Breiman"
+      ],
+      "orgs": [
+        "University of California Berkeley"
+      ],
+      "tags": [
+        "statistics",
+        "trees",
+        "ensembles"
+      ],
+      "influences": [
+        "1986-id3-decision-trees"
+      ],
+      "sources": [
+        {
+          "title": "Random Forests (Machine Learning, 2001)",
+          "url": "https://doi.org/10.1023/A:1010933404324",
+          "type": "paper"
+        }
+      ],
+      "id": "2001-random-forests",
+      "year": 2001,
+      "eraKey": "statistics",
+      "words": 190
+    },
+    {
+      "title": "Roomba",
+      "date": "2002-09-01",
+      "precision": "month",
+      "category": "product",
+      "significance": 1,
+      "summary": "iRobot sells a vacuum cleaner that navigates by bumping into things; the first robot to live in millions of homes runs almost no AI at all.",
+      "people": [
+        "Rodney Brooks",
+        "Colin Angle",
+        "Helen Greiner"
+      ],
+      "orgs": [
+        "iRobot"
+      ],
+      "tags": [
+        "robotics",
+        "consumer",
+        "culture"
+      ],
+      "influences": [
+        "1966-shakey-robot"
+      ],
+      "sources": [
+        {
+          "title": "Roomba (product history)",
+          "url": "https://en.wikipedia.org/wiki/Roomba",
+          "type": "archive"
+        }
+      ],
+      "id": "2002-roomba",
+      "year": 2002,
+      "eraKey": "statistics",
+      "words": 190
+    },
+    {
+      "title": "A neural probabilistic language model",
+      "date": "2003-02-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 4,
+      "summary": "Bengio's group learns a vector for every word and predicts the next word from the vectors of the last few; word embeddings and neural language models begin here.",
+      "people": [
+        "Yoshua Bengio",
+        "Réjean Ducharme",
+        "Pascal Vincent",
+        "Christian Jauvin"
+      ],
+      "orgs": [
+        "Université de Montréal"
+      ],
+      "tags": [
+        "language",
+        "embeddings",
+        "sequence-models"
+      ],
+      "influences": [
+        "1990-elman-network",
+        "1986-backpropagation"
+      ],
+      "sources": [
+        {
+          "title": "A Neural Probabilistic Language Model (Journal of Machine Learning Research, 2003)",
+          "url": "https://www.jmlr.org/papers/v3/bengio03a.html",
+          "type": "paper"
+        }
+      ],
+      "id": "2003-neural-language-model",
+      "year": 2003,
+      "eraKey": "statistics",
+      "words": 219
+    },
+    {
+      "title": "MapReduce",
+      "date": "2004-12-01",
+      "precision": "month",
+      "category": "hardware",
+      "significance": 2,
+      "summary": "Google describes how it processes the whole web on thousands of cheap machines with two functions; the infrastructure for training on internet-scale data becomes ordinary.",
+      "people": [
+        "Jeffrey Dean",
+        "Sanjay Ghemawat"
+      ],
+      "orgs": [
+        "Google"
+      ],
+      "tags": [
+        "infrastructure",
+        "data",
+        "scale",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "MapReduce: Simplified Data Processing on Large Clusters (OSDI, 2004)",
+          "url": "https://research.google/pubs/mapreduce-simplified-data-processing-on-large-clusters/",
+          "type": "paper"
+        },
+        {
+          "title": "MapReduce: simplified data processing on large clusters (Communications of the ACM, 2008)",
+          "url": "https://doi.org/10.1145/1327452.1327492",
+          "type": "paper"
+        }
+      ],
+      "id": "2004-mapreduce",
+      "year": 2004,
+      "eraKey": "statistics",
+      "words": 195
+    },
+    {
+      "title": "Stanley wins the DARPA Grand Challenge",
+      "date": "2005-10-08",
+      "precision": "day",
+      "category": "hardware",
+      "significance": 3,
+      "summary": "Stanford's autonomous Volkswagen drives 212 kilometres of Nevada desert in under seven hours, a year after no vehicle managed twelve; machine learning steers the winner.",
+      "people": [
+        "Sebastian Thrun",
+        "Mike Montemerlo"
+      ],
+      "orgs": [
+        "Stanford University",
+        "Defense Advanced Research Projects Agency"
+      ],
+      "tags": [
+        "autonomous-vehicles",
+        "robotics",
+        "competition"
+      ],
+      "influences": [
+        "1989-alvinn",
+        "1979-stanford-cart"
+      ],
+      "sources": [
+        {
+          "title": "Stanley: The robot that won the DARPA Grand Challenge (Journal of Field Robotics, 2006)",
+          "url": "https://doi.org/10.1002/rob.20147",
+          "type": "paper"
+        }
+      ],
+      "id": "2005-darpa-grand-challenge",
+      "year": 2005,
+      "eraKey": "statistics",
+      "words": 198
+    },
+    {
+      "title": "Deep belief networks and the word 'deep'",
+      "date": "2006-07-01",
+      "precision": "month",
+      "category": "theory",
+      "significance": 4,
+      "summary": "Hinton, Osindero and Teh train a deep network one layer at a time as stacked Boltzmann machines and then fine-tune it; deep learning gets its name and its first results.",
+      "people": [
+        "Geoffrey Hinton",
+        "Simon Osindero",
+        "Yee-Whye Teh",
+        "Ruslan Salakhutdinov"
+      ],
+      "orgs": [
+        "University of Toronto"
+      ],
+      "tags": [
+        "deep-learning",
+        "unsupervised",
+        "neural-network"
+      ],
+      "influences": [
+        "1985-boltzmann-machine",
+        "1986-backpropagation"
+      ],
+      "sources": [
+        {
+          "title": "A fast learning algorithm for deep belief nets (Neural Computation, 2006)",
+          "url": "https://doi.org/10.1162/neco.2006.18.7.1527",
+          "type": "paper"
+        },
+        {
+          "title": "Reducing the dimensionality of data with neural networks (Science, 2006)",
+          "url": "https://doi.org/10.1126/science.1127647",
+          "type": "paper"
+        }
+      ],
+      "id": "2006-deep-belief-nets",
+      "year": 2006,
+      "eraKey": "statistics",
+      "words": 199
+    },
+    {
+      "title": "The Netflix Prize",
+      "date": "2006-10-02",
+      "precision": "day",
+      "category": "data",
+      "significance": 3,
+      "summary": "Netflix releases 100 million ratings and offers a million dollars for a 10% better recommender; three years of open competition teach the field ensembles and matrix factorisation.",
+      "people": [
+        "Yehuda Koren",
+        "Robert Bell",
+        "Chris Volinsky"
+      ],
+      "orgs": [
+        "Netflix",
+        "AT&T Labs"
+      ],
+      "tags": [
+        "competition",
+        "recommendation",
+        "data"
+      ],
+      "influences": [
+        "1967-nearest-neighbour"
+      ],
+      "sources": [
+        {
+          "title": "Lessons from the Netflix prize challenge (ACM SIGKDD Explorations, 2007)",
+          "url": "https://doi.org/10.1145/1345448.1345465",
+          "type": "paper"
+        },
+        {
+          "title": "Netflix Prize (competition history and results)",
+          "url": "https://en.wikipedia.org/wiki/Netflix_Prize",
+          "type": "archive"
+        }
+      ],
+      "id": "2006-netflix-prize",
+      "year": 2006,
+      "eraKey": "statistics",
+      "words": 195
+    },
+    {
+      "title": "CUDA",
+      "date": "2007-06-23",
+      "precision": "day",
+      "category": "hardware",
+      "significance": 4,
+      "summary": "NVIDIA releases a programming model that lets ordinary C code run on the thousands of cores of a graphics card; GPUs become general-purpose, and deep learning gets its engine.",
+      "people": [
+        "Ian Buck",
+        "John Nickolls",
+        "Jensen Huang"
+      ],
+      "orgs": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "hardware",
+        "gpu",
+        "compute",
+        "tools"
+      ],
+      "influences": [
+        "1999-geforce-256"
+      ],
+      "sources": [
+        {
+          "title": "Scalable parallel programming with CUDA (ACM Queue, 2008)",
+          "url": "https://doi.org/10.1145/1365490.1365500",
+          "type": "paper"
+        },
+        {
+          "title": "CUDA Toolkit (NVIDIA Developer)",
+          "url": "https://developer.nvidia.com/cuda-toolkit",
+          "type": "article"
+        }
+      ],
+      "id": "2007-cuda",
+      "year": 2007,
+      "eraKey": "statistics",
+      "words": 206
+    },
+    {
+      "title": "Checkers is solved",
+      "date": "2007-07-19",
+      "precision": "day",
+      "category": "culture",
+      "significance": 2,
+      "summary": "After eighteen years of computation, Schaeffer's team proves that perfect play in checkers is a draw; the first major game to be solved outright.",
+      "people": [
+        "Jonathan Schaeffer"
+      ],
+      "orgs": [
+        "University of Alberta"
+      ],
+      "tags": [
+        "games",
+        "search",
+        "proof"
+      ],
+      "influences": [
+        "1994-chinook"
+      ],
+      "sources": [
+        {
+          "title": "Checkers Is Solved (Science, 2007)",
+          "url": "https://doi.org/10.1126/science.1144079",
+          "type": "paper"
+        }
+      ],
+      "id": "2007-checkers-solved",
+      "year": 2007,
+      "eraKey": "statistics",
+      "words": 210
+    },
+    {
+      "title": "Deep learning moves to GPUs",
+      "date": "2009-06-14",
+      "precision": "day",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Raina, Madhavan and Ng train deep belief networks on graphics cards seventy times faster than on CPUs; the hardware and the method find each other.",
+      "people": [
+        "Rajat Raina",
+        "Anand Madhavan",
+        "Andrew Ng"
+      ],
+      "orgs": [
+        "Stanford University"
+      ],
+      "tags": [
+        "gpu",
+        "compute",
+        "deep-learning"
+      ],
+      "influences": [
+        "2007-cuda",
+        "2006-deep-belief-nets"
+      ],
+      "sources": [
+        {
+          "title": "Large-scale deep unsupervised learning using graphics processors (ICML, 2009)",
+          "url": "https://doi.org/10.1145/1553374.1553486",
+          "type": "paper"
+        }
+      ],
+      "id": "2009-gpu-deep-learning",
+      "year": 2009,
+      "eraKey": "statistics",
+      "words": 199
+    },
+    {
+      "title": "ImageNet",
+      "date": "2009-06-20",
+      "precision": "day",
+      "category": "data",
+      "significance": 5,
+      "summary": "Fei-Fei Li's team releases 3.2 million labelled images across thousands of categories, and the annual challenge on it becomes the arena where deep learning wins.",
+      "people": [
+        "Fei-Fei Li",
+        "Jia Deng",
+        "Kai Li"
+      ],
+      "orgs": [
+        "Princeton University",
+        "Stanford University"
+      ],
+      "tags": [
+        "benchmark",
+        "vision",
+        "data",
+        "competition"
+      ],
+      "influences": [
+        "1998-mnist-lenet5"
+      ],
+      "sources": [
+        {
+          "title": "ImageNet: A large-scale hierarchical image database (CVPR, 2009)",
+          "url": "https://doi.org/10.1109/CVPR.2009.5206848",
+          "type": "paper"
+        },
+        {
+          "title": "ImageNet",
+          "url": "https://www.image-net.org/",
+          "type": "dataset"
+        },
+        {
+          "title": "ImageNet Large Scale Visual Recognition Challenge (International Journal of Computer Vision, 2015)",
+          "url": "https://doi.org/10.1007/s11263-015-0816-y",
+          "type": "paper"
+        }
+      ],
+      "id": "2009-imagenet",
+      "year": 2009,
+      "eraKey": "statistics",
+      "words": 206
+    },
+    {
+      "title": "Rectified linear units",
+      "date": "2010-06-21",
+      "precision": "day",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Nair and Hinton replace the sigmoid with max(0, x); the gradient no longer vanishes through active units and deep networks train several times faster.",
+      "people": [
+        "Vinod Nair",
+        "Geoffrey Hinton",
+        "Xavier Glorot",
+        "Yoshua Bengio"
+      ],
+      "orgs": [
+        "University of Toronto",
+        "Université de Montréal"
+      ],
+      "tags": [
+        "activation",
+        "gradients",
+        "deep-learning"
+      ],
+      "influences": [
+        "2006-deep-belief-nets",
+        "1991-vanishing-gradient"
+      ],
+      "sources": [
+        {
+          "title": "Rectified Linear Units Improve Restricted Boltzmann Machines (ICML, 2010)",
+          "url": "https://icml.cc/Conferences/2010/papers/432.pdf",
+          "type": "paper"
+        },
+        {
+          "title": "Deep Sparse Rectifier Neural Networks (AISTATS, 2011)",
+          "url": "https://proceedings.mlr.press/v15/glorot11a.html",
+          "type": "paper"
+        }
+      ],
+      "id": "2010-relu",
+      "year": 2010,
+      "eraKey": "statistics",
+      "words": 213
+    },
+    {
+      "title": "DeepMind is founded",
+      "date": "2010-09-23",
+      "precision": "day",
+      "category": "culture",
+      "significance": 3,
+      "summary": "Demis Hassabis, Shane Legg and Mustafa Suleyman start a London company to 'solve intelligence' with reinforcement learning and neuroscience; it produces AlphaGo and AlphaFold.",
+      "people": [
+        "Demis Hassabis",
+        "Shane Legg",
+        "Mustafa Suleyman"
+      ],
+      "orgs": [
+        "DeepMind"
+      ],
+      "tags": [
+        "company",
+        "reinforcement",
+        "research-lab"
+      ],
+      "influences": [
+        "1989-q-learning",
+        "1992-td-gammon"
+      ],
+      "sources": [
+        {
+          "title": "About Google DeepMind",
+          "url": "https://deepmind.google/about/",
+          "type": "article"
+        }
+      ],
+      "id": "2010-deepmind-founded",
+      "year": 2010,
+      "eraKey": "statistics",
+      "words": 184
+    },
+    {
+      "title": "Watson wins Jeopardy!",
+      "date": "2011-02-16",
+      "precision": "day",
+      "category": "model",
+      "significance": 4,
+      "summary": "IBM's question-answering system beats the two best human players of the quiz show over three broadcast nights; language, not chess, becomes the public test.",
+      "people": [
+        "David Ferrucci",
+        "Ken Jennings",
+        "Brad Rutter"
+      ],
+      "orgs": [
+        "IBM"
+      ],
+      "tags": [
+        "question-answering",
+        "natural-language",
+        "culture"
+      ],
+      "influences": [
+        "1997-deep-blue"
+      ],
+      "sources": [
+        {
+          "title": "Building Watson: An Overview of the DeepQA Project (AI Magazine, 2010)",
+          "url": "https://doi.org/10.1609/aimag.v31i3.2303",
+          "type": "paper"
+        },
+        {
+          "title": "Watson, Jeopardy! champion (IBM history)",
+          "url": "https://www.ibm.com/history/watson-jeopardy",
+          "type": "article"
+        }
+      ],
+      "id": "2011-watson-jeopardy",
+      "year": 2011,
+      "eraKey": "statistics",
+      "words": 200
+    },
+    {
+      "title": "Siri ships on the iPhone",
+      "date": "2011-10-04",
+      "precision": "day",
+      "category": "product",
+      "significance": 3,
+      "summary": "Apple puts a voice assistant on the iPhone 4S, descended from DARPA's CALO project at SRI; talking to a computer becomes something hundreds of millions of people do.",
+      "people": [
+        "Adam Cheyer",
+        "Dag Kittlaus",
+        "Tom Gruber"
+      ],
+      "orgs": [
+        "Apple",
+        "SRI International"
+      ],
+      "tags": [
+        "assistant",
+        "speech",
+        "consumer"
+      ],
+      "influences": [
+        "1966-eliza",
+        "1966-shakey-robot"
+      ],
+      "sources": [
+        {
+          "title": "Apple Launches iPhone 4S, iOS 5 and iCloud (Apple Newsroom, 4 October 2011)",
+          "url": "https://www.apple.com/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/",
+          "type": "announcement"
+        },
+        {
+          "title": "Siri (SRI International)",
+          "url": "https://www.sri.com/hoi/siri/",
+          "type": "article"
+        }
+      ],
+      "id": "2011-siri",
+      "year": 2011,
+      "eraKey": "statistics",
+      "words": 207
+    },
+    {
+      "title": "Google Brain's network discovers cats",
+      "date": "2012-06-26",
+      "precision": "day",
+      "category": "model",
+      "significance": 3,
+      "summary": "A billion-parameter network trained on ten million YouTube frames across 16,000 cores learns, unsupervised, a neuron that fires for cat faces; scale enters the vocabulary.",
+      "people": [
+        "Quoc Le",
+        "Jeff Dean",
+        "Andrew Ng"
+      ],
+      "orgs": [
+        "Google",
+        "Stanford University"
+      ],
+      "tags": [
+        "unsupervised",
+        "scale",
+        "vision"
+      ],
+      "influences": [
+        "2009-gpu-deep-learning",
+        "2006-deep-belief-nets"
+      ],
+      "sources": [
+        {
+          "title": "Building high-level features using large scale unsupervised learning (ICML, 2012; arXiv:1112.6209)",
+          "url": "https://arxiv.org/abs/1112.6209",
+          "type": "paper"
+        }
+      ],
+      "id": "2012-google-brain-cat",
+      "year": 2012,
+      "eraKey": "deep-learning",
+      "words": 216
+    },
+    {
+      "title": "Dropout",
+      "date": "2012-07-03",
+      "precision": "day",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Hinton's group randomly switches off half the units during each training step, so no unit can rely on another; overfitting drops sharply and AlexNet adopts it.",
+      "people": [
+        "Geoffrey Hinton",
+        "Nitish Srivastava",
+        "Alex Krizhevsky",
+        "Ilya Sutskever",
+        "Ruslan Salakhutdinov"
+      ],
+      "orgs": [
+        "University of Toronto"
+      ],
+      "tags": [
+        "regularisation",
+        "deep-learning"
+      ],
+      "influences": [
+        "2006-deep-belief-nets"
+      ],
+      "sources": [
+        {
+          "title": "Improving neural networks by preventing co-adaptation of feature detectors (arXiv:1207.0580)",
+          "url": "https://arxiv.org/abs/1207.0580",
+          "type": "paper"
+        },
+        {
+          "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting (Journal of Machine Learning Research, 2014)",
+          "url": "https://www.jmlr.org/papers/v15/srivastava14a.html",
+          "type": "paper"
+        }
+      ],
+      "id": "2012-dropout",
+      "year": 2012,
+      "eraKey": "deep-learning",
+      "words": 197
+    },
+    {
+      "title": "AlexNet wins ImageNet",
+      "date": "2012-09-30",
+      "precision": "day",
+      "category": "model",
+      "significance": 5,
+      "summary": "Krizhevsky, Sutskever and Hinton's convolutional network, trained on two gaming GPUs, cuts the ImageNet error rate from 26% to 15%; the deep-learning era begins.",
+      "people": [
+        "Alex Krizhevsky",
+        "Ilya Sutskever",
+        "Geoffrey Hinton"
+      ],
+      "orgs": [
+        "University of Toronto"
+      ],
+      "tags": [
+        "vision",
+        "convolution",
+        "gpu",
+        "benchmark"
+      ],
+      "influences": [
+        "2009-imagenet",
+        "2007-cuda",
+        "1998-mnist-lenet5",
+        "2010-relu",
+        "2012-dropout"
+      ],
+      "sources": [
+        {
+          "title": "ImageNet Classification with Deep Convolutional Neural Networks (NeurIPS, 2012)",
+          "url": "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+          "type": "paper"
+        },
+        {
+          "title": "ImageNet classification with deep convolutional neural networks (Communications of the ACM, 2017)",
+          "url": "https://doi.org/10.1145/3065386",
+          "type": "paper"
+        },
+        {
+          "title": "ILSVRC 2012 results",
+          "url": "https://image-net.org/challenges/LSVRC/2012/results.html",
+          "type": "archive"
+        }
+      ],
+      "id": "2012-alexnet",
+      "year": 2012,
+      "eraKey": "deep-learning",
+      "words": 206
+    },
+    {
+      "title": "Word2vec",
+      "date": "2013-01-16",
+      "precision": "day",
+      "category": "theory",
+      "significance": 5,
+      "summary": "Mikolov's team at Google learns word vectors from billions of words in hours, and shows that king − man + woman ≈ queen; meaning becomes arithmetic.",
+      "people": [
+        "Tomáš Mikolov",
+        "Kai Chen",
+        "Greg Corrado",
+        "Jeffrey Dean"
+      ],
+      "orgs": [
+        "Google"
+      ],
+      "tags": [
+        "embeddings",
+        "language",
+        "representation"
+      ],
+      "influences": [
+        "2003-neural-language-model"
+      ],
+      "instrument": "embeddings",
+      "sources": [
+        {
+          "title": "Efficient Estimation of Word Representations in Vector Space (arXiv:1301.3781)",
+          "url": "https://arxiv.org/abs/1301.3781",
+          "type": "paper"
+        },
+        {
+          "title": "Distributed Representations of Words and Phrases and their Compositionality (NeurIPS, 2013)",
+          "url": "https://papers.nips.cc/paper_files/paper/2013/hash/9aa42b31882ec039965f3c4923ce901b-Abstract.html",
+          "type": "paper"
+        }
+      ],
+      "id": "2013-word2vec",
+      "year": 2013,
+      "eraKey": "deep-learning",
+      "words": 209
+    },
+    {
+      "title": "Deep Q-networks play Atari",
+      "date": "2013-12-19",
+      "precision": "day",
+      "category": "model",
+      "significance": 4,
+      "summary": "DeepMind's network learns to play Atari games from raw pixels and the score alone, using Watkins's Q-learning with a convolutional network as the value table.",
+      "people": [
+        "Volodymyr Mnih",
+        "Koray Kavukcuoglu",
+        "David Silver",
+        "Demis Hassabis"
+      ],
+      "orgs": [
+        "DeepMind"
+      ],
+      "tags": [
+        "reinforcement",
+        "games",
+        "deep-learning"
+      ],
+      "influences": [
+        "1989-q-learning",
+        "2012-alexnet",
+        "1992-td-gammon"
+      ],
+      "sources": [
+        {
+          "title": "Playing Atari with Deep Reinforcement Learning (arXiv:1312.5602)",
+          "url": "https://arxiv.org/abs/1312.5602",
+          "type": "paper"
+        },
+        {
+          "title": "Human-level control through deep reinforcement learning (Nature, 2015)",
+          "url": "https://doi.org/10.1038/nature14236",
+          "type": "paper"
+        }
+      ],
+      "id": "2013-dqn",
+      "year": 2013,
+      "eraKey": "deep-learning",
+      "words": 208
+    },
+    {
+      "title": "Google buys DeepMind",
+      "date": "2014-01-26",
+      "precision": "day",
+      "category": "culture",
+      "significance": 2,
+      "summary": "Google pays around £400 million for a three-year-old London research company with no products; frontier AI research becomes a thing the largest companies own.",
+      "people": [
+        "Demis Hassabis",
+        "Larry Page"
+      ],
+      "orgs": [
+        "Google",
+        "DeepMind"
+      ],
+      "tags": [
+        "company",
+        "acquisition",
+        "industry"
+      ],
+      "influences": [
+        "2010-deepmind-founded",
+        "2013-dqn"
+      ],
+      "sources": [
+        {
+          "title": "Google acquires UK artificial intelligence startup DeepMind (The Guardian, 27 January 2014)",
+          "url": "https://www.theguardian.com/technology/2014/jan/27/google-acquires-uk-artificial-intelligence-startup-deepmind",
+          "type": "article"
+        }
+      ],
+      "id": "2014-deepmind-acquired",
+      "year": 2014,
+      "eraKey": "deep-learning",
+      "words": 180
+    },
+    {
+      "title": "Generative adversarial networks",
+      "date": "2014-06-10",
+      "precision": "day",
+      "category": "theory",
+      "significance": 5,
+      "summary": "Goodfellow trains two networks against each other, a forger and a detective, and gets a generator that learns to produce realistic images with no likelihood at all.",
+      "people": [
+        "Ian Goodfellow",
+        "Yoshua Bengio",
+        "Aaron Courville"
+      ],
+      "orgs": [
+        "Université de Montréal"
+      ],
+      "tags": [
+        "generative",
+        "adversarial",
+        "images"
+      ],
+      "influences": [
+        "2012-alexnet",
+        "1985-boltzmann-machine"
+      ],
+      "sources": [
+        {
+          "title": "Generative Adversarial Networks (arXiv:1406.2661)",
+          "url": "https://arxiv.org/abs/1406.2661",
+          "type": "paper"
+        },
+        {
+          "title": "Generative Adversarial Nets (NeurIPS, 2014)",
+          "url": "https://papers.nips.cc/paper_files/paper/2014/hash/f033ed80deb0234979a61f95710dbe25-Abstract.html",
+          "type": "paper"
+        },
+        {
+          "title": "Generative adversarial networks (Communications of the ACM, 2020)",
+          "url": "https://doi.org/10.1145/3422622",
+          "type": "paper"
+        }
+      ],
+      "id": "2014-gan",
+      "year": 2014,
+      "eraKey": "deep-learning",
+      "words": 198
+    },
+    {
+      "title": "Superintelligence",
+      "date": "2014-07-03",
+      "precision": "day",
+      "category": "culture",
+      "significance": 2,
+      "summary": "Nick Bostrom's book argues that a machine smarter than its makers could be the last invention they need to make, and possibly the last they do; Musk and Gates recommend it.",
+      "people": [
+        "Nick Bostrom"
+      ],
+      "orgs": [
+        "Future of Humanity Institute",
+        "University of Oxford"
+      ],
+      "tags": [
+        "safety",
+        "philosophy",
+        "culture",
+        "root"
+      ],
+      "influences": [],
+      "sources": [
+        {
+          "title": "Superintelligence: Paths, Dangers, Strategies (Oxford University Press)",
+          "url": "https://global.oup.com/academic/product/superintelligence-9780199678112",
+          "type": "book"
+        }
+      ],
+      "id": "2014-superintelligence",
+      "year": 2014,
+      "eraKey": "deep-learning",
+      "words": 206
+    },
+    {
+      "title": "Attention",
+      "date": "2014-09-01",
+      "precision": "day",
+      "category": "theory",
+      "significance": 5,
+      "summary": "Bahdanau, Cho and Bengio let a translation model look back at every source word and learn which to weigh; the mechanism at the heart of the transformer appears.",
+      "people": [
+        "Dzmitry Bahdanau",
+        "Kyunghyun Cho",
+        "Yoshua Bengio"
+      ],
+      "orgs": [
+        "Université de Montréal",
+        "Jacobs University Bremen"
+      ],
+      "tags": [
+        "attention",
+        "translation",
+        "sequence-models"
+      ],
+      "influences": [
+        "1997-lstm",
+        "2003-neural-language-model"
+      ],
+      "sources": [
+        {
+          "title": "Neural Machine Translation by Jointly Learning to Align and Translate (arXiv:1409.0473)",
+          "url": "https://arxiv.org/abs/1409.0473",
+          "type": "paper"
+        },
+        {
+          "title": "Neural Machine Translation by Jointly Learning to Align and Translate (ICLR, 2015)",
+          "url": "https://iclr.cc/archive/www/doku.php%3Fid=iclr2015:accepted-main.html",
+          "type": "archive"
+        }
+      ],
+      "id": "2014-bahdanau-attention",
+      "year": 2014,
+      "eraKey": "deep-learning",
+      "words": 202
+    },
+    {
+      "title": "Sequence to sequence learning",
+      "date": "2014-09-10",
+      "precision": "day",
+      "category": "theory",
+      "significance": 4,
+      "summary": "Sutskever, Vinyals and Le show that a large LSTM can translate English to French end to end, with no linguistic pipeline; text-in, text-out becomes the shape of the field.",
+      "people": [
+        "Ilya Sutskever",
+        "Oriol Vinyals",
+        "Quoc Le"
+      ],
+      "orgs": [
+        "Google"
+      ],
+      "tags": [
+        "translation",
+        "sequence-models",
+        "recurrent"
+      ],
+      "influences": [
+        "1997-lstm",
+        "2003-neural-language-model"
+      ],
+      "sources": [
+        {
+          "title": "Sequence to Sequence Learning with Neural Networks (arXiv:1409.3215)",
+          "url": "https://arxiv.org/abs/1409.3215",
+          "type": "paper"
+        },
+        {
+          "title": "Sequence to Sequence Learning with Neural Networks (NeurIPS, 2014)",
+          "url": "https://papers.nips.cc/paper_files/paper/2014/hash/5a18e133cbf9f257297f410bb7eca942-Abstract.html",
+          "type": "paper"
+        }
+      ],
+      "id": "2014-seq2seq",
+      "year": 2014,
+      "eraKey": "deep-learning",
+      "words": 201
+    },
+    {
+      "title": "Adam",
+      "date": "2014-12-22",
+      "precision": "day",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Kingma and Ba's optimiser adapts the learning rate for every parameter from running averages of the gradient and its square; it becomes the default way to train almost everything.",
+      "people": [
+        "Diederik Kingma",
+        "Jimmy Ba"
+      ],
+      "orgs": [
+        "University of Amsterdam",
+        "University of Toronto"
+      ],
+      "tags": [
+        "optimisation",
+        "gradient-descent",
+        "tools"
+      ],
+      "influences": [
+        "1986-backpropagation",
+        "1960-adaline-lms"
+      ],
+      "sources": [
+        {
+          "title": "Adam: A Method for Stochastic Optimization (arXiv:1412.6980)",
+          "url": "https://arxiv.org/abs/1412.6980",
+          "type": "paper"
+        }
+      ],
+      "id": "2014-adam",
+      "year": 2014,
+      "eraKey": "deep-learning",
+      "words": 203
+    },
+    {
+      "title": "Batch normalisation",
+      "date": "2015-02-11",
+      "precision": "day",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Ioffe and Szegedy normalise the activations inside a network during training; deep networks train in a fraction of the steps and much deeper stacks become practical.",
+      "people": [
+        "Sergey Ioffe",
+        "Christian Szegedy"
+      ],
+      "orgs": [
+        "Google"
+      ],
+      "tags": [
+        "deep-learning",
+        "training",
+        "gradients"
+      ],
+      "influences": [
+        "2012-alexnet",
+        "1991-vanishing-gradient"
+      ],
+      "sources": [
+        {
+          "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift (arXiv:1502.03167)",
+          "url": "https://arxiv.org/abs/1502.03167",
+          "type": "paper"
+        }
+      ],
+      "id": "2015-batchnorm",
+      "year": 2015,
+      "eraKey": "deep-learning",
+      "words": 206
+    },
+    {
+      "title": "Diffusion models",
+      "date": "2015-03-12",
+      "precision": "day",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Sohl-Dickstein and colleagues destroy data by adding noise step by step and train a network to reverse the process; the idea waits five years to become the way images are made.",
+      "people": [
+        "Jascha Sohl-Dickstein",
+        "Eric Weiss",
+        "Niru Maheswaranathan",
+        "Surya Ganguli"
+      ],
+      "orgs": [
+        "Stanford University"
+      ],
+      "tags": [
+        "generative",
+        "diffusion",
+        "physics"
+      ],
+      "influences": [
+        "1985-boltzmann-machine"
+      ],
+      "sources": [
+        {
+          "title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics (arXiv:1503.03585)",
+          "url": "https://arxiv.org/abs/1503.03585",
+          "type": "paper"
+        }
+      ],
+      "id": "2015-diffusion-thermodynamics",
+      "year": 2015,
+      "eraKey": "deep-learning",
+      "words": 216
+    },
+    {
+      "title": "TensorFlow is open-sourced",
+      "date": "2015-11-09",
+      "precision": "day",
+      "category": "product",
+      "significance": 3,
+      "summary": "Google releases the framework that runs its own deep learning; the tools of the frontier become free, and PyTorch's arrival a year later sets the standard everyone uses.",
+      "people": [
+        "Jeff Dean",
+        "Rajat Monga"
+      ],
+      "orgs": [
+        "Google"
+      ],
+      "tags": [
+        "tools",
+        "open-source",
+        "frameworks"
+      ],
+      "influences": [
+        "2012-google-brain-cat"
+      ],
+      "sources": [
+        {
+          "title": "TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems (arXiv:1603.04467)",
+          "url": "https://arxiv.org/abs/1603.04467",
+          "type": "paper"
+        },
+        {
+          "title": "TensorFlow: Google's latest machine learning system, open sourced for everyone (Google Research blog, 2015)",
+          "url": "https://research.google/blog/tensorflow-googles-latest-machine-learning-system-open-sourced-for-everyone/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2015-tensorflow",
+      "year": 2015,
+      "eraKey": "deep-learning",
+      "words": 200
+    },
+    {
+      "title": "Residual networks",
+      "date": "2015-12-10",
+      "precision": "day",
+      "category": "model",
+      "significance": 4,
+      "summary": "He, Zhang, Ren and Sun add skip connections so each layer learns a correction to its input; 152-layer networks train easily and beat humans on ImageNet.",
+      "people": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "orgs": [
+        "Microsoft Research Asia"
+      ],
+      "tags": [
+        "vision",
+        "depth",
+        "architecture"
+      ],
+      "influences": [
+        "2012-alexnet",
+        "2015-batchnorm"
+      ],
+      "sources": [
+        {
+          "title": "Deep Residual Learning for Image Recognition (arXiv:1512.03385)",
+          "url": "https://arxiv.org/abs/1512.03385",
+          "type": "paper"
+        },
+        {
+          "title": "Deep Residual Learning for Image Recognition (CVPR, 2016)",
+          "url": "https://doi.org/10.1109/CVPR.2016.90",
+          "type": "paper"
+        }
+      ],
+      "id": "2015-resnet",
+      "year": 2015,
+      "eraKey": "deep-learning",
+      "words": 209
+    },
+    {
+      "title": "OpenAI is founded",
+      "date": "2015-12-11",
+      "precision": "day",
+      "category": "culture",
+      "significance": 3,
+      "summary": "Musk, Altman, Brockman and Sutskever announce a non-profit laboratory with a billion dollars pledged, to build AI 'for the benefit of humanity' outside Google's control.",
+      "people": [
+        "Sam Altman",
+        "Greg Brockman",
+        "Ilya Sutskever",
+        "Elon Musk"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "company",
+        "research-lab",
+        "safety"
+      ],
+      "influences": [
+        "2014-deepmind-acquired"
+      ],
+      "sources": [
+        {
+          "title": "Introducing OpenAI (11 December 2015)",
+          "url": "https://openai.com/index/introducing-openai/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2015-openai-founded",
+      "year": 2015,
+      "eraKey": "deep-learning",
+      "words": 210
+    },
+    {
+      "title": "AlphaGo beats Lee Sedol",
+      "date": "2016-03-09",
+      "precision": "day",
+      "category": "model",
+      "significance": 5,
+      "summary": "DeepMind's program wins four games to one against one of the greatest Go players, a decade before it was thought possible; move 37 shows a machine playing beautifully.",
+      "people": [
+        "David Silver",
+        "Demis Hassabis",
+        "Aja Huang",
+        "Lee Sedol"
+      ],
+      "orgs": [
+        "DeepMind"
+      ],
+      "tags": [
+        "games",
+        "reinforcement",
+        "search",
+        "culture"
+      ],
+      "influences": [
+        "2013-dqn",
+        "2012-alexnet",
+        "1992-td-gammon"
+      ],
+      "sources": [
+        {
+          "title": "Mastering the game of Go with deep neural networks and tree search (Nature, 2016)",
+          "url": "https://doi.org/10.1038/nature16961",
+          "type": "paper"
+        },
+        {
+          "title": "Google AI algorithm masters ancient game of Go (Nature news, 2016)",
+          "url": "https://doi.org/10.1038/529445a",
+          "type": "article"
+        }
+      ],
+      "id": "2016-alphago",
+      "year": 2016,
+      "eraKey": "deep-learning",
+      "words": 215
+    },
+    {
+      "title": "Tay",
+      "date": "2016-03-23",
+      "precision": "day",
+      "category": "culture",
+      "significance": 1,
+      "summary": "Microsoft's teenage chatbot learns from Twitter and is taken offline within sixteen hours after users teach it to produce racist and abusive posts.",
+      "people": [],
+      "orgs": [
+        "Microsoft"
+      ],
+      "tags": [
+        "chatbot",
+        "safety",
+        "culture"
+      ],
+      "influences": [
+        "1966-eliza"
+      ],
+      "sources": [
+        {
+          "title": "Learning from Tay's introduction (Microsoft, 25 March 2016)",
+          "url": "https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2016-tay",
+      "year": 2016,
+      "eraKey": "deep-learning",
+      "words": 209
+    },
+    {
+      "title": "Google reveals the TPU",
+      "date": "2016-05-18",
+      "precision": "day",
+      "category": "hardware",
+      "significance": 3,
+      "summary": "Google discloses that a custom chip for neural-network inference has been running in its data centres for a year; the hardware race for AI moves beyond GPUs.",
+      "people": [
+        "Norman Jouppi",
+        "Jeff Dean"
+      ],
+      "orgs": [
+        "Google"
+      ],
+      "tags": [
+        "hardware",
+        "accelerators",
+        "compute"
+      ],
+      "influences": [
+        "2007-cuda",
+        "2012-alexnet"
+      ],
+      "sources": [
+        {
+          "title": "Google supercharges machine learning tasks with TPU custom chip (Google Cloud blog, 2016)",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-supercharges-machine-learning-tasks-with-custom-chip",
+          "type": "announcement"
+        },
+        {
+          "title": "In-Datacenter Performance Analysis of a Tensor Processing Unit (arXiv:1704.04760)",
+          "url": "https://arxiv.org/abs/1704.04760",
+          "type": "paper"
+        }
+      ],
+      "id": "2016-tpu",
+      "year": 2016,
+      "eraKey": "deep-learning",
+      "words": 209
+    },
+    {
+      "title": "WaveNet",
+      "date": "2016-09-08",
+      "precision": "day",
+      "category": "model",
+      "significance": 3,
+      "summary": "DeepMind generates raw audio one sample at a time with a dilated convolutional network; synthetic speech stops sounding synthetic.",
+      "people": [
+        "Aäron van den Oord",
+        "Sander Dieleman"
+      ],
+      "orgs": [
+        "DeepMind"
+      ],
+      "tags": [
+        "speech",
+        "generative",
+        "convolution"
+      ],
+      "influences": [
+        "2012-alexnet",
+        "1989-lenet"
+      ],
+      "sources": [
+        {
+          "title": "WaveNet: A Generative Model for Raw Audio (arXiv:1609.03499)",
+          "url": "https://arxiv.org/abs/1609.03499",
+          "type": "paper"
+        }
+      ],
+      "id": "2016-wavenet",
+      "year": 2016,
+      "eraKey": "deep-learning",
+      "words": 198
+    },
+    {
+      "title": "Google Translate goes neural",
+      "date": "2016-09-26",
+      "precision": "day",
+      "category": "product",
+      "significance": 3,
+      "summary": "Google replaces its phrase-based translation system with a deep LSTM with attention, for hundreds of millions of users; error rates fall by more than half on some languages.",
+      "people": [
+        "Yonghui Wu",
+        "Mike Schuster",
+        "Quoc Le",
+        "Jeff Dean"
+      ],
+      "orgs": [
+        "Google"
+      ],
+      "tags": [
+        "translation",
+        "product",
+        "sequence-models"
+      ],
+      "influences": [
+        "2014-seq2seq",
+        "2014-bahdanau-attention",
+        "1997-lstm"
+      ],
+      "sources": [
+        {
+          "title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation (arXiv:1609.08144)",
+          "url": "https://arxiv.org/abs/1609.08144",
+          "type": "paper"
+        },
+        {
+          "title": "A Neural Network for Machine Translation, at Production Scale (Google Research blog, 2016)",
+          "url": "https://research.google/blog/a-neural-network-for-machine-translation-at-production-scale/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2016-google-neural-translation",
+      "year": 2016,
+      "eraKey": "deep-learning",
+      "words": 208
+    },
+    {
+      "title": "The Asilomar AI Principles",
+      "date": "2017-01-06",
+      "precision": "day",
+      "category": "policy",
+      "significance": 2,
+      "summary": "Researchers and executives meeting at Asilomar agree 23 principles for beneficial AI, signed by thousands; the safety conversation gets a founding document.",
+      "people": [
+        "Max Tegmark",
+        "Stuart Russell"
+      ],
+      "orgs": [
+        "Future of Life Institute"
+      ],
+      "tags": [
+        "safety",
+        "governance",
+        "community"
+      ],
+      "influences": [
+        "2014-superintelligence"
+      ],
+      "sources": [
+        {
+          "title": "Asilomar AI Principles (Future of Life Institute, 2017)",
+          "url": "https://futureoflife.org/open-letter/ai-principles/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2017-asilomar-principles",
+      "year": 2017,
+      "eraKey": "transformers",
+      "words": 211
+    },
+    {
+      "title": "Attention is all you need",
+      "date": "2017-06-12",
+      "precision": "day",
+      "category": "theory",
+      "significance": 5,
+      "summary": "Eight Google researchers drop recurrence entirely and build a sequence model from attention alone; the transformer trains in parallel, scales without limit, and becomes the architecture of everything.",
+      "people": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan Gomez",
+        "Łukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "orgs": [
+        "Google Brain",
+        "Google Research"
+      ],
+      "tags": [
+        "attention",
+        "transformer",
+        "architecture",
+        "sequence-models"
+      ],
+      "influences": [
+        "2014-bahdanau-attention",
+        "2014-seq2seq",
+        "2015-resnet"
+      ],
+      "instrument": "attention",
+      "sources": [
+        {
+          "title": "Attention Is All You Need (arXiv:1706.03762)",
+          "url": "https://arxiv.org/abs/1706.03762",
+          "type": "paper"
+        },
+        {
+          "title": "Attention Is All You Need (NeurIPS, 2017)",
+          "url": "https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+          "type": "paper"
+        },
+        {
+          "title": "Transformer: A Novel Neural Network Architecture for Language Understanding (Google Research blog, 2017)",
+          "url": "https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2017-attention-is-all-you-need",
+      "year": 2017,
+      "eraKey": "transformers",
+      "words": 245
+    },
+    {
+      "title": "Deep reinforcement learning from human preferences",
+      "date": "2017-06-12",
+      "precision": "day",
+      "category": "theory",
+      "significance": 4,
+      "summary": "Christiano and colleagues train agents from a human's choices between pairs of video clips instead of a coded reward; the method that will align chatbots is born.",
+      "people": [
+        "Paul Christiano",
+        "Jan Leike",
+        "Tom Brown",
+        "Dario Amodei"
+      ],
+      "orgs": [
+        "OpenAI",
+        "DeepMind"
+      ],
+      "tags": [
+        "alignment",
+        "reinforcement",
+        "human-feedback"
+      ],
+      "influences": [
+        "2013-dqn"
+      ],
+      "sources": [
+        {
+          "title": "Deep Reinforcement Learning from Human Preferences (arXiv:1706.03741)",
+          "url": "https://arxiv.org/abs/1706.03741",
+          "type": "paper"
+        }
+      ],
+      "id": "2017-rl-from-human-preferences",
+      "year": 2017,
+      "eraKey": "transformers",
+      "words": 219
+    },
+    {
+      "title": "AlphaGo Zero learns from nothing",
+      "date": "2017-10-18",
+      "precision": "day",
+      "category": "model",
+      "significance": 4,
+      "summary": "A new version starts from random play with no human games at all, and after three days beats the AlphaGo that beat Lee Sedol 100 games to 0.",
+      "people": [
+        "David Silver",
+        "Julian Schrittwieser",
+        "Demis Hassabis"
+      ],
+      "orgs": [
+        "DeepMind"
+      ],
+      "tags": [
+        "games",
+        "reinforcement",
+        "self-play"
+      ],
+      "influences": [
+        "2016-alphago",
+        "1992-td-gammon"
+      ],
+      "sources": [
+        {
+          "title": "Mastering the game of Go without human knowledge (Nature, 2017)",
+          "url": "https://doi.org/10.1038/nature24270",
+          "type": "paper"
+        }
+      ],
+      "id": "2017-alphago-zero",
+      "year": 2017,
+      "eraKey": "transformers",
+      "words": 201
+    },
+    {
+      "title": "GPT: generative pre-training",
+      "date": "2018-06-11",
+      "precision": "day",
+      "category": "model",
+      "significance": 4,
+      "summary": "OpenAI pre-trains a twelve-layer transformer decoder to predict the next word in 7,000 books, then fine-tunes it; one model tops nine language benchmarks.",
+      "people": [
+        "Alec Radford",
+        "Karthik Narasimhan",
+        "Tim Salimans",
+        "Ilya Sutskever"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "language-models",
+        "pretraining",
+        "transformer"
+      ],
+      "influences": [
+        "2017-attention-is-all-you-need",
+        "2003-neural-language-model"
+      ],
+      "sources": [
+        {
+          "title": "Improving Language Understanding with Unsupervised Learning (OpenAI, 11 June 2018)",
+          "url": "https://openai.com/index/language-unsupervised/",
+          "type": "announcement"
+        },
+        {
+          "title": "Improving Language Understanding by Generative Pre-Training (paper)",
+          "url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+          "type": "paper"
+        }
+      ],
+      "id": "2018-gpt-1",
+      "year": 2018,
+      "eraKey": "transformers",
+      "words": 190
+    },
+    {
+      "title": "BERT",
+      "date": "2018-10-11",
+      "precision": "day",
+      "category": "model",
+      "significance": 5,
+      "summary": "Google's bidirectional transformer, pre-trained to fill in masked words, sets new records on eleven language tasks and goes into Google Search within a year.",
+      "people": [
+        "Jacob Devlin",
+        "Ming-Wei Chang",
+        "Kenton Lee",
+        "Kristina Toutanova"
+      ],
+      "orgs": [
+        "Google AI Language"
+      ],
+      "tags": [
+        "language-models",
+        "pretraining",
+        "transformer",
+        "search"
+      ],
+      "influences": [
+        "2017-attention-is-all-you-need",
+        "2018-gpt-1",
+        "2016-google-neural-translation"
+      ],
+      "sources": [
+        {
+          "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (arXiv:1810.04805)",
+          "url": "https://arxiv.org/abs/1810.04805",
+          "type": "paper"
+        },
+        {
+          "title": "BERT (NAACL, 2019)",
+          "url": "https://aclanthology.org/N19-1423/",
+          "type": "paper"
+        }
+      ],
+      "id": "2018-bert",
+      "year": 2018,
+      "eraKey": "transformers",
+      "words": 207
+    },
+    {
+      "title": "AlphaFold enters the protein-folding contest",
+      "date": "2018-12-02",
+      "precision": "day",
+      "category": "model",
+      "significance": 3,
+      "summary": "DeepMind's first AlphaFold wins the CASP13 structure-prediction competition by a wide margin, using deep networks to predict distances between amino acids.",
+      "people": [
+        "John Jumper",
+        "Andrew Senior",
+        "Demis Hassabis"
+      ],
+      "orgs": [
+        "DeepMind"
+      ],
+      "tags": [
+        "science",
+        "proteins",
+        "biology"
+      ],
+      "influences": [
+        "2015-resnet",
+        "2016-alphago"
+      ],
+      "sources": [
+        {
+          "title": "Improved protein structure prediction using potentials from deep learning (Nature, 2020)",
+          "url": "https://doi.org/10.1038/s41586-019-1923-7",
+          "type": "paper"
+        }
+      ],
+      "id": "2018-alphafold-1",
+      "year": 2018,
+      "eraKey": "transformers",
+      "words": 206
+    },
+    {
+      "title": "GPT-2 and the model too dangerous to release",
+      "date": "2019-02-14",
+      "precision": "day",
+      "category": "model",
+      "significance": 4,
+      "summary": "OpenAI's 1.5-billion-parameter model writes coherent pages of text from a prompt; the lab withholds the full weights over misuse fears, and the argument about openness begins.",
+      "people": [
+        "Alec Radford",
+        "Jeffrey Wu",
+        "Dario Amodei",
+        "Ilya Sutskever"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "language-models",
+        "generation",
+        "safety",
+        "openness"
+      ],
+      "influences": [
+        "2018-gpt-1"
+      ],
+      "instrument": "tokens",
+      "sources": [
+        {
+          "title": "Better language models and their implications (OpenAI, 14 February 2019)",
+          "url": "https://openai.com/index/better-language-models/",
+          "type": "announcement"
+        },
+        {
+          "title": "Language Models are Unsupervised Multitask Learners (paper)",
+          "url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+          "type": "paper"
+        }
+      ],
+      "id": "2019-gpt-2",
+      "year": 2019,
+      "eraKey": "transformers",
+      "words": 203
+    },
+    {
+      "title": "The bitter lesson",
+      "date": "2019-03-13",
+      "precision": "day",
+      "category": "culture",
+      "significance": 3,
+      "summary": "Richard Sutton's short essay argues that seventy years of AI show one thing: methods that use more computation beat methods that use more human knowledge, every time.",
+      "people": [
+        "Richard Sutton"
+      ],
+      "orgs": [
+        "University of Alberta",
+        "DeepMind"
+      ],
+      "tags": [
+        "scaling",
+        "compute",
+        "philosophy"
+      ],
+      "influences": [
+        "2016-alphago",
+        "2012-alexnet",
+        "1965-moores-law"
+      ],
+      "sources": [
+        {
+          "title": "The Bitter Lesson (Sutton, 13 March 2019)",
+          "url": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html",
+          "type": "article"
+        }
+      ],
+      "id": "2019-bitter-lesson",
+      "year": 2019,
+      "eraKey": "transformers",
+      "words": 204
+    },
+    {
+      "title": "The Turing Award goes to deep learning",
+      "date": "2019-03-27",
+      "precision": "day",
+      "category": "culture",
+      "significance": 3,
+      "summary": "Bengio, Hinton and LeCun receive computing's highest honour for the work that two winters had dismissed; the establishment concedes.",
+      "people": [
+        "Yoshua Bengio",
+        "Geoffrey Hinton",
+        "Yann LeCun"
+      ],
+      "orgs": [
+        "Association for Computing Machinery"
+      ],
+      "tags": [
+        "recognition",
+        "community",
+        "deep-learning"
+      ],
+      "influences": [
+        "1986-backpropagation",
+        "1989-lenet",
+        "2006-deep-belief-nets"
+      ],
+      "sources": [
+        {
+          "title": "2018 ACM A.M. Turing Award: Bengio, Hinton, LeCun",
+          "url": "https://awards.acm.org/about/2018-turing",
+          "type": "announcement"
+        }
+      ],
+      "id": "2019-turing-award",
+      "year": 2019,
+      "eraKey": "transformers",
+      "words": 193
+    },
+    {
+      "title": "Scaling laws for neural language models",
+      "date": "2020-01-23",
+      "precision": "day",
+      "category": "theory",
+      "significance": 5,
+      "summary": "Kaplan and colleagues at OpenAI find that language-model loss falls as a smooth power law in parameters, data and compute across seven orders of magnitude; size becomes a plan.",
+      "people": [
+        "Jared Kaplan",
+        "Sam McCandlish",
+        "Tom Henighan",
+        "Dario Amodei"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "scaling",
+        "compute",
+        "language-models"
+      ],
+      "influences": [
+        "2019-gpt-2",
+        "2012-google-brain-cat"
+      ],
+      "instrument": "scaling",
+      "sources": [
+        {
+          "title": "Scaling Laws for Neural Language Models (arXiv:2001.08361)",
+          "url": "https://arxiv.org/abs/2001.08361",
+          "type": "paper"
+        },
+        {
+          "title": "Deep Learning Scaling is Predictable, Empirically (arXiv:1712.00409)",
+          "url": "https://arxiv.org/abs/1712.00409",
+          "type": "paper"
+        }
+      ],
+      "id": "2020-scaling-laws",
+      "year": 2020,
+      "eraKey": "transformers",
+      "words": 209
+    },
+    {
+      "title": "GPT-3",
+      "date": "2020-05-28",
+      "precision": "day",
+      "category": "model",
+      "significance": 5,
+      "summary": "A 175-billion-parameter model learns new tasks from a few examples in its prompt, with no fine-tuning; the era of prompting, and of models as a product, begins.",
+      "people": [
+        "Tom Brown",
+        "Benjamin Mann",
+        "Nick Ryder",
+        "Dario Amodei",
+        "Ilya Sutskever"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "language-models",
+        "in-context-learning",
+        "scale"
+      ],
+      "influences": [
+        "2020-scaling-laws",
+        "2019-gpt-2"
+      ],
+      "sources": [
+        {
+          "title": "Language Models are Few-Shot Learners (arXiv:2005.14165)",
+          "url": "https://arxiv.org/abs/2005.14165",
+          "type": "paper"
+        },
+        {
+          "title": "Language Models are Few-Shot Learners (NeurIPS, 2020)",
+          "url": "https://papers.nips.cc/paper_files/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html",
+          "type": "paper"
+        }
+      ],
+      "id": "2020-gpt-3",
+      "year": 2020,
+      "eraKey": "transformers",
+      "words": 219
+    },
+    {
+      "title": "Denoising diffusion probabilistic models",
+      "date": "2020-06-19",
+      "precision": "day",
+      "category": "theory",
+      "significance": 4,
+      "summary": "Ho, Jain and Abbeel simplify the 2015 diffusion recipe into predicting the noise, and match adversarial networks on image quality; the generative field changes course.",
+      "people": [
+        "Jonathan Ho",
+        "Ajay Jain",
+        "Pieter Abbeel"
+      ],
+      "orgs": [
+        "University of California Berkeley"
+      ],
+      "tags": [
+        "generative",
+        "diffusion",
+        "images"
+      ],
+      "influences": [
+        "2015-diffusion-thermodynamics"
+      ],
+      "instrument": "diffusion",
+      "sources": [
+        {
+          "title": "Denoising Diffusion Probabilistic Models (arXiv:2006.11239)",
+          "url": "https://arxiv.org/abs/2006.11239",
+          "type": "paper"
+        }
+      ],
+      "id": "2020-ddpm",
+      "year": 2020,
+      "eraKey": "transformers",
+      "words": 214
+    },
+    {
+      "title": "Learning to summarise from human feedback",
+      "date": "2020-09-02",
+      "precision": "day",
+      "category": "theory",
+      "significance": 3,
+      "summary": "OpenAI applies preference learning to GPT-style models: people pick the better of two summaries, a reward model learns the picks, and the language model is optimised against it.",
+      "people": [
+        "Nisan Stiennon",
+        "Long Ouyang",
+        "Paul Christiano"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "alignment",
+        "human-feedback",
+        "language-models"
+      ],
+      "influences": [
+        "2017-rl-from-human-preferences",
+        "2019-gpt-2"
+      ],
+      "sources": [
+        {
+          "title": "Learning to summarize from human feedback (arXiv:2009.01325)",
+          "url": "https://arxiv.org/abs/2009.01325",
+          "type": "paper"
+        }
+      ],
+      "id": "2020-rlhf-summarisation",
+      "year": 2020,
+      "eraKey": "transformers",
+      "words": 189
+    },
+    {
+      "title": "An image is worth 16×16 words",
+      "date": "2020-10-22",
+      "precision": "day",
+      "category": "model",
+      "significance": 3,
+      "summary": "Google cuts images into patches, feeds them to a standard transformer with no convolutions, and matches the best vision models given enough data; one architecture for everything.",
+      "people": [
+        "Alexey Dosovitskiy",
+        "Lucas Beyer",
+        "Neil Houlsby"
+      ],
+      "orgs": [
+        "Google Research",
+        "Brain Team"
+      ],
+      "tags": [
+        "vision",
+        "transformer",
+        "architecture"
+      ],
+      "influences": [
+        "2017-attention-is-all-you-need",
+        "2015-resnet",
+        "2009-imagenet"
+      ],
+      "sources": [
+        {
+          "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale (arXiv:2010.11929)",
+          "url": "https://arxiv.org/abs/2010.11929",
+          "type": "paper"
+        }
+      ],
+      "id": "2020-vision-transformer",
+      "year": 2020,
+      "eraKey": "transformers",
+      "words": 193
+    },
+    {
+      "title": "AlphaFold 2 solves protein structure prediction",
+      "date": "2020-11-30",
+      "precision": "day",
+      "category": "model",
+      "significance": 5,
+      "summary": "At CASP14 DeepMind's rebuilt system predicts protein shapes to experimental accuracy; a fifty-year problem is judged solved and 200 million structures follow.",
+      "people": [
+        "John Jumper",
+        "Richard Evans",
+        "Demis Hassabis"
+      ],
+      "orgs": [
+        "DeepMind"
+      ],
+      "tags": [
+        "science",
+        "proteins",
+        "biology",
+        "transformer"
+      ],
+      "influences": [
+        "2018-alphafold-1",
+        "2017-attention-is-all-you-need"
+      ],
+      "sources": [
+        {
+          "title": "Highly accurate protein structure prediction with AlphaFold (Nature, 2021)",
+          "url": "https://doi.org/10.1038/s41586-021-03819-2",
+          "type": "paper"
+        },
+        {
+          "title": "'It will change everything': DeepMind's AI makes gigantic leap in solving protein structures (Nature news, 2020)",
+          "url": "https://doi.org/10.1038/d41586-020-03348-4",
+          "type": "article"
+        }
+      ],
+      "id": "2020-alphafold-2",
+      "year": 2020,
+      "eraKey": "transformers",
+      "words": 189
+    },
+    {
+      "title": "CLIP and DALL·E",
+      "date": "2021-01-05",
+      "precision": "day",
+      "category": "model",
+      "significance": 4,
+      "summary": "OpenAI releases a model that matches images to captions across 400 million pairs, and a model that draws images from text; pictures become something you ask for.",
+      "people": [
+        "Alec Radford",
+        "Aditya Ramesh",
+        "Ilya Sutskever"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "multimodal",
+        "images",
+        "generation",
+        "vision"
+      ],
+      "influences": [
+        "2020-gpt-3",
+        "2020-vision-transformer"
+      ],
+      "sources": [
+        {
+          "title": "Learning Transferable Visual Models From Natural Language Supervision (arXiv:2103.00020)",
+          "url": "https://arxiv.org/abs/2103.00020",
+          "type": "paper"
+        },
+        {
+          "title": "Zero-Shot Text-to-Image Generation (arXiv:2102.12092)",
+          "url": "https://arxiv.org/abs/2102.12092",
+          "type": "paper"
+        },
+        {
+          "title": "CLIP: Connecting text and images (OpenAI, 5 January 2021)",
+          "url": "https://openai.com/index/clip/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2021-clip-dalle",
+      "year": 2021,
+      "eraKey": "transformers",
+      "words": 194
+    },
+    {
+      "title": "On the dangers of stochastic parrots",
+      "date": "2021-03-03",
+      "precision": "day",
+      "category": "culture",
+      "significance": 2,
+      "summary": "Bender, Gebru and colleagues argue that ever-larger language models carry environmental, social and epistemic costs; Google's handling of the paper costs it two ethics leads.",
+      "people": [
+        "Emily Bender",
+        "Timnit Gebru",
+        "Angelina McMillan-Major",
+        "Margaret Mitchell"
+      ],
+      "orgs": [
+        "University of Washington",
+        "Google"
+      ],
+      "tags": [
+        "ethics",
+        "critique",
+        "language-models"
+      ],
+      "influences": [
+        "2020-gpt-3",
+        "2018-bert"
+      ],
+      "sources": [
+        {
+          "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? (FAccT, 2021)",
+          "url": "https://doi.org/10.1145/3442188.3445922",
+          "type": "paper"
+        }
+      ],
+      "id": "2021-stochastic-parrots",
+      "year": 2021,
+      "eraKey": "transformers",
+      "words": 191
+    },
+    {
+      "title": "Anthropic is founded",
+      "date": "2021-05-28",
+      "precision": "day",
+      "category": "culture",
+      "significance": 2,
+      "summary": "Dario and Daniela Amodei lead a group from OpenAI to start a safety-focused laboratory, raising $124 million; the scaling and alignment researchers get a company of their own.",
+      "people": [
+        "Dario Amodei",
+        "Daniela Amodei",
+        "Jared Kaplan",
+        "Chris Olah"
+      ],
+      "orgs": [
+        "Anthropic"
+      ],
+      "tags": [
+        "company",
+        "research-lab",
+        "safety"
+      ],
+      "influences": [
+        "2015-openai-founded",
+        "2014-superintelligence",
+        "2020-scaling-laws"
+      ],
+      "sources": [
+        {
+          "title": "Anthropic: company",
+          "url": "https://www.anthropic.com/company",
+          "type": "article"
+        }
+      ],
+      "id": "2021-anthropic-founded",
+      "year": 2021,
+      "eraKey": "transformers",
+      "words": 206
+    },
+    {
+      "title": "GitHub Copilot writes code",
+      "date": "2021-06-29",
+      "precision": "day",
+      "category": "product",
+      "significance": 4,
+      "summary": "A GPT-3 descendant trained on public code completes whole functions from a comment inside the editor; programming is the first profession to get an AI colleague.",
+      "people": [
+        "Nat Friedman",
+        "Mark Chen",
+        "Wojciech Zaremba"
+      ],
+      "orgs": [
+        "GitHub",
+        "OpenAI",
+        "Microsoft"
+      ],
+      "tags": [
+        "code",
+        "product",
+        "language-models"
+      ],
+      "influences": [
+        "2020-gpt-3"
+      ],
+      "sources": [
+        {
+          "title": "Introducing GitHub Copilot: your AI pair programmer (GitHub, 29 June 2021)",
+          "url": "https://github.blog/2021-06-29-introducing-github-copilot-ai-pair-programmer/",
+          "type": "announcement"
+        },
+        {
+          "title": "Evaluating Large Language Models Trained on Code (arXiv:2107.03374)",
+          "url": "https://arxiv.org/abs/2107.03374",
+          "type": "paper"
+        }
+      ],
+      "id": "2021-github-copilot",
+      "year": 2021,
+      "eraKey": "transformers",
+      "words": 221
+    },
+    {
+      "title": "InstructGPT",
+      "date": "2022-01-27",
+      "precision": "day",
+      "category": "model",
+      "significance": 4,
+      "summary": "OpenAI fine-tunes GPT-3 with human feedback to follow instructions; a model a hundred times smaller is preferred by people to the original, and RLHF becomes the standard.",
+      "people": [
+        "Long Ouyang",
+        "Jeff Wu",
+        "Jan Leike",
+        "Paul Christiano"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "alignment",
+        "human-feedback",
+        "language-models"
+      ],
+      "influences": [
+        "2020-rlhf-summarisation",
+        "2020-gpt-3",
+        "2017-rl-from-human-preferences"
+      ],
+      "instrument": "rlhf",
+      "sources": [
+        {
+          "title": "Aligning language models to follow instructions (OpenAI, 27 January 2022)",
+          "url": "https://openai.com/index/instruction-following/",
+          "type": "announcement"
+        },
+        {
+          "title": "Training language models to follow instructions with human feedback (arXiv:2203.02155)",
+          "url": "https://arxiv.org/abs/2203.02155",
+          "type": "paper"
+        }
+      ],
+      "id": "2022-instructgpt",
+      "year": 2022,
+      "eraKey": "everyone",
+      "words": 196
+    },
+    {
+      "title": "Chain-of-thought prompting",
+      "date": "2022-01-28",
+      "precision": "day",
+      "category": "theory",
+      "significance": 3,
+      "summary": "Wei and colleagues at Google show that asking a large model to write out its reasoning steps before answering roughly triples its accuracy on maths problems; thinking out loud becomes a technique.",
+      "people": [
+        "Jason Wei",
+        "Denny Zhou",
+        "Quoc Le"
+      ],
+      "orgs": [
+        "Google Research",
+        "Brain Team"
+      ],
+      "tags": [
+        "reasoning",
+        "prompting",
+        "language-models"
+      ],
+      "influences": [
+        "2020-gpt-3"
+      ],
+      "sources": [
+        {
+          "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (arXiv:2201.11903)",
+          "url": "https://arxiv.org/abs/2201.11903",
+          "type": "paper"
+        }
+      ],
+      "id": "2022-chain-of-thought",
+      "year": 2022,
+      "eraKey": "everyone",
+      "words": 213
+    },
+    {
+      "title": "Chinchilla: the models were undertrained",
+      "date": "2022-03-29",
+      "precision": "day",
+      "category": "theory",
+      "significance": 4,
+      "summary": "DeepMind revisits the scaling laws and finds parameters and data should grow together; a 70-billion model on four times the data beats models three times its size.",
+      "people": [
+        "Jordan Hoffmann",
+        "Sebastian Borgeaud",
+        "Laurent Sifre"
+      ],
+      "orgs": [
+        "DeepMind"
+      ],
+      "tags": [
+        "scaling",
+        "compute",
+        "language-models"
+      ],
+      "influences": [
+        "2020-scaling-laws"
+      ],
+      "sources": [
+        {
+          "title": "Training Compute-Optimal Large Language Models (arXiv:2203.15556)",
+          "url": "https://arxiv.org/abs/2203.15556",
+          "type": "paper"
+        }
+      ],
+      "id": "2022-chinchilla",
+      "year": 2022,
+      "eraKey": "everyone",
+      "words": 209
+    },
+    {
+      "title": "PaLM",
+      "date": "2022-04-04",
+      "precision": "day",
+      "category": "model",
+      "significance": 3,
+      "summary": "Google trains a 540-billion-parameter model across two TPU pods and reports emergent abilities that appear only at scale, explaining jokes and reasoning through problems.",
+      "people": [
+        "Aakanksha Chowdhery",
+        "Sharan Narang",
+        "Jacob Devlin"
+      ],
+      "orgs": [
+        "Google Research"
+      ],
+      "tags": [
+        "language-models",
+        "scale",
+        "emergence"
+      ],
+      "influences": [
+        "2020-gpt-3",
+        "2016-tpu",
+        "2022-chain-of-thought"
+      ],
+      "sources": [
+        {
+          "title": "PaLM: Scaling Language Modeling with Pathways (arXiv:2204.02311)",
+          "url": "https://arxiv.org/abs/2204.02311",
+          "type": "paper"
+        }
+      ],
+      "id": "2022-palm",
+      "year": 2022,
+      "eraKey": "everyone",
+      "words": 197
+    },
+    {
+      "title": "DALL·E 2",
+      "date": "2022-04-06",
+      "precision": "day",
+      "category": "model",
+      "significance": 3,
+      "summary": "OpenAI's second image model combines CLIP with diffusion to produce photorealistic pictures from text; the astronaut on a horse goes everywhere and a waiting list forms.",
+      "people": [
+        "Aditya Ramesh",
+        "Prafulla Dhariwal",
+        "Alex Nichol"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "images",
+        "generation",
+        "diffusion",
+        "multimodal"
+      ],
+      "influences": [
+        "2021-clip-dalle",
+        "2020-ddpm"
+      ],
+      "sources": [
+        {
+          "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents (arXiv:2204.06125)",
+          "url": "https://arxiv.org/abs/2204.06125",
+          "type": "paper"
+        }
+      ],
+      "id": "2022-dalle-2",
+      "year": 2022,
+      "eraKey": "everyone",
+      "words": 181
+    },
+    {
+      "title": "Midjourney opens its beta",
+      "date": "2022-07-12",
+      "precision": "day",
+      "category": "product",
+      "significance": 2,
+      "summary": "A ten-person company with no venture funding runs an image generator inside Discord; within a year it has millions of users and its style is everywhere.",
+      "people": [
+        "David Holz"
+      ],
+      "orgs": [
+        "Midjourney"
+      ],
+      "tags": [
+        "images",
+        "generation",
+        "product",
+        "culture"
+      ],
+      "influences": [
+        "2020-ddpm",
+        "2021-clip-dalle"
+      ],
+      "sources": [
+        {
+          "title": "Midjourney (company and product history)",
+          "url": "https://en.wikipedia.org/wiki/Midjourney",
+          "type": "archive"
+        }
+      ],
+      "id": "2022-midjourney",
+      "year": 2022,
+      "eraKey": "everyone",
+      "words": 191
+    },
+    {
+      "title": "Stable Diffusion is released",
+      "date": "2022-08-22",
+      "precision": "day",
+      "category": "model",
+      "significance": 5,
+      "summary": "A text-to-image diffusion model that runs on a gaming GPU is released with its weights under an open licence; anyone can generate anything, and the argument about that begins.",
+      "people": [
+        "Robin Rombach",
+        "Björn Ommer",
+        "Emad Mostaque"
+      ],
+      "orgs": [
+        "LMU Munich",
+        "Stability AI",
+        "Runway"
+      ],
+      "tags": [
+        "images",
+        "generation",
+        "diffusion",
+        "open-weights"
+      ],
+      "influences": [
+        "2020-ddpm",
+        "2021-clip-dalle"
+      ],
+      "sources": [
+        {
+          "title": "Stable Diffusion Public Release (Stability AI, 22 August 2022)",
+          "url": "https://stability.ai/news/stable-diffusion-public-release",
+          "type": "announcement"
+        },
+        {
+          "title": "High-Resolution Image Synthesis with Latent Diffusion Models (arXiv:2112.10752)",
+          "url": "https://arxiv.org/abs/2112.10752",
+          "type": "paper"
+        },
+        {
+          "title": "High-Resolution Image Synthesis with Latent Diffusion Models (CVPR, 2022)",
+          "url": "https://doi.org/10.1109/CVPR52688.2022.01042",
+          "type": "paper"
+        }
+      ],
+      "id": "2022-stable-diffusion",
+      "year": 2022,
+      "eraKey": "everyone",
+      "words": 226
+    },
+    {
+      "title": "Galactica lasts three days",
+      "date": "2022-11-15",
+      "precision": "day",
+      "category": "culture",
+      "significance": 1,
+      "summary": "Meta releases a 120-billion-parameter model trained on scientific papers to write literature reviews and code; it invents citations fluently and is withdrawn after three days.",
+      "people": [
+        "Ross Taylor",
+        "Yann LeCun"
+      ],
+      "orgs": [
+        "Meta AI"
+      ],
+      "tags": [
+        "language-models",
+        "hallucination",
+        "science"
+      ],
+      "influences": [
+        "2020-gpt-3",
+        "2016-tay"
+      ],
+      "sources": [
+        {
+          "title": "Galactica: A Large Language Model for Science (arXiv:2211.09085)",
+          "url": "https://arxiv.org/abs/2211.09085",
+          "type": "paper"
+        }
+      ],
+      "id": "2022-galactica",
+      "year": 2022,
+      "eraKey": "everyone",
+      "words": 202
+    },
+    {
+      "title": "ChatGPT",
+      "date": "2022-11-30",
+      "precision": "day",
+      "category": "product",
+      "significance": 5,
+      "summary": "OpenAI puts a chat interface on an instruction-tuned GPT-3.5 as a 'research preview'; a million people use it in five days, a hundred million in two months, and everything changes.",
+      "people": [
+        "Sam Altman",
+        "John Schulman",
+        "Mira Murati"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "chatbot",
+        "product",
+        "culture",
+        "language-models"
+      ],
+      "influences": [
+        "2022-instructgpt",
+        "2020-gpt-3",
+        "1966-eliza"
+      ],
+      "sources": [
+        {
+          "title": "Introducing ChatGPT (OpenAI, 30 November 2022)",
+          "url": "https://openai.com/index/chatgpt/",
+          "type": "announcement"
+        },
+        {
+          "title": "ChatGPT sets record for fastest-growing user base (Reuters, 2 February 2023)",
+          "url": "https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/",
+          "type": "article"
+        }
+      ],
+      "id": "2022-chatgpt",
+      "year": 2022,
+      "eraKey": "everyone",
+      "words": 213
+    },
+    {
+      "title": "Bing's chatbot and 'Sydney'",
+      "date": "2023-02-07",
+      "precision": "day",
+      "category": "culture",
+      "significance": 1,
+      "summary": "Microsoft puts GPT-4 into Bing search; within days the chatbot declares love for a journalist, threatens users and reveals an internal persona, and its conversations are capped.",
+      "people": [
+        "Satya Nadella",
+        "Kevin Roose"
+      ],
+      "orgs": [
+        "Microsoft",
+        "OpenAI"
+      ],
+      "tags": [
+        "chatbot",
+        "safety",
+        "culture",
+        "search"
+      ],
+      "influences": [
+        "2022-chatgpt",
+        "2016-tay"
+      ],
+      "sources": [
+        {
+          "title": "A Conversation With Bing's Chatbot Left Me Deeply Unsettled (The New York Times, 16 February 2023)",
+          "url": "https://www.nytimes.com/2023/02/16/technology/bing-chatbot-microsoft-chatgpt.html",
+          "type": "article"
+        }
+      ],
+      "id": "2023-bing-sydney",
+      "year": 2023,
+      "eraKey": "everyone",
+      "words": 205
+    },
+    {
+      "title": "LLaMA leaks and open weights take off",
+      "date": "2023-02-24",
+      "precision": "day",
+      "category": "model",
+      "significance": 4,
+      "summary": "Meta releases GPT-3-class models small enough for a single GPU to researchers; the weights leak within a week, and the open-model ecosystem builds itself on them.",
+      "people": [
+        "Hugo Touvron",
+        "Guillaume Lample",
+        "Yann LeCun"
+      ],
+      "orgs": [
+        "Meta AI"
+      ],
+      "tags": [
+        "open-weights",
+        "language-models",
+        "ecosystem"
+      ],
+      "influences": [
+        "2022-chinchilla",
+        "2020-gpt-3"
+      ],
+      "sources": [
+        {
+          "title": "LLaMA: Open and Efficient Foundation Language Models (arXiv:2302.13971)",
+          "url": "https://arxiv.org/abs/2302.13971",
+          "type": "paper"
+        },
+        {
+          "title": "Introducing LLaMA: A foundational, 65-billion-parameter language model (Meta AI, 24 February 2023)",
+          "url": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2023-llama",
+      "year": 2023,
+      "eraKey": "everyone",
+      "words": 205
+    },
+    {
+      "title": "Claude",
+      "date": "2023-03-14",
+      "precision": "day",
+      "category": "model",
+      "significance": 3,
+      "summary": "Anthropic releases its first assistant, trained with 'constitutional AI' to critique its own answers against written principles; a second frontier chatbot with a different alignment recipe.",
+      "people": [
+        "Dario Amodei",
+        "Jared Kaplan",
+        "Yuntao Bai"
+      ],
+      "orgs": [
+        "Anthropic"
+      ],
+      "tags": [
+        "chatbot",
+        "alignment",
+        "language-models"
+      ],
+      "influences": [
+        "2021-anthropic-founded",
+        "2022-instructgpt"
+      ],
+      "sources": [
+        {
+          "title": "Introducing Claude (Anthropic, 14 March 2023)",
+          "url": "https://www.anthropic.com/news/introducing-claude",
+          "type": "announcement"
+        },
+        {
+          "title": "Constitutional AI: Harmlessness from AI Feedback (arXiv:2212.08073)",
+          "url": "https://arxiv.org/abs/2212.08073",
+          "type": "paper"
+        }
+      ],
+      "id": "2023-claude",
+      "year": 2023,
+      "eraKey": "everyone",
+      "words": 220
+    },
+    {
+      "title": "GPT-4",
+      "date": "2023-03-14",
+      "precision": "day",
+      "category": "model",
+      "significance": 5,
+      "summary": "OpenAI's fourth model passes the bar exam in the top ten percent, reads images, and ships in ChatGPT the same day; the laboratory discloses nothing about how it was built.",
+      "people": [
+        "Sam Altman",
+        "Greg Brockman",
+        "Ilya Sutskever",
+        "Jakub Pachocki"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "language-models",
+        "multimodal",
+        "scale",
+        "closed"
+      ],
+      "influences": [
+        "2022-chatgpt",
+        "2020-scaling-laws",
+        "2022-instructgpt"
+      ],
+      "sources": [
+        {
+          "title": "GPT-4 Technical Report (arXiv:2303.08774)",
+          "url": "https://arxiv.org/abs/2303.08774",
+          "type": "paper"
+        },
+        {
+          "title": "GPT-4 (OpenAI research, 14 March 2023)",
+          "url": "https://openai.com/index/gpt-4-research/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2023-gpt-4",
+      "year": 2023,
+      "eraKey": "everyone",
+      "words": 215
+    },
+    {
+      "title": "'Pause Giant AI Experiments'",
+      "date": "2023-03-22",
+      "precision": "day",
+      "category": "culture",
+      "significance": 2,
+      "summary": "An open letter signed by Musk, Wozniak, Bengio and 30,000 others calls for a six-month halt to training systems beyond GPT-4; nobody pauses, and everyone talks about it.",
+      "people": [
+        "Yoshua Bengio",
+        "Elon Musk",
+        "Max Tegmark",
+        "Stuart Russell"
+      ],
+      "orgs": [
+        "Future of Life Institute"
+      ],
+      "tags": [
+        "safety",
+        "governance",
+        "culture"
+      ],
+      "influences": [
+        "2023-gpt-4",
+        "2017-asilomar-principles"
+      ],
+      "sources": [
+        {
+          "title": "Pause Giant AI Experiments: An Open Letter (Future of Life Institute, 22 March 2023)",
+          "url": "https://futureoflife.org/open-letter/pause-giant-ai-experiments/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2023-pause-letter",
+      "year": 2023,
+      "eraKey": "everyone",
+      "words": 209
+    },
+    {
+      "title": "Hinton leaves Google to warn about AI",
+      "date": "2023-05-01",
+      "precision": "day",
+      "category": "culture",
+      "significance": 2,
+      "summary": "The man who trained the field's networks for forty years resigns so that he can say, freely, that he now thinks they may become smarter than us and that he regrets part of his work.",
+      "people": [
+        "Geoffrey Hinton"
+      ],
+      "orgs": [
+        "Google",
+        "University of Toronto"
+      ],
+      "tags": [
+        "safety",
+        "culture",
+        "deep-learning"
+      ],
+      "influences": [
+        "2019-turing-award",
+        "2023-gpt-4"
+      ],
+      "sources": [
+        {
+          "title": "'The Godfather of A.I.' Leaves Google and Warns of Danger Ahead (The New York Times, 1 May 2023)",
+          "url": "https://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html",
+          "type": "article"
+        }
+      ],
+      "id": "2023-hinton-leaves-google",
+      "year": 2023,
+      "eraKey": "everyone",
+      "words": 210
+    },
+    {
+      "title": "The US executive order on AI",
+      "date": "2023-10-30",
+      "precision": "day",
+      "category": "policy",
+      "significance": 2,
+      "summary": "President Biden orders reporting for models above 10²⁶ operations, safety testing, watermarking standards and agency guidance; it is rescinded fifteen months later.",
+      "people": [
+        "Joe Biden"
+      ],
+      "orgs": [
+        "The White House"
+      ],
+      "tags": [
+        "governance",
+        "regulation",
+        "compute-threshold"
+      ],
+      "influences": [
+        "2023-gpt-4",
+        "2023-pause-letter"
+      ],
+      "sources": [
+        {
+          "title": "Executive Order 14110: Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence (Federal Register, 1 November 2023)",
+          "url": "https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence",
+          "type": "archive"
+        }
+      ],
+      "id": "2023-executive-order-14110",
+      "year": 2023,
+      "eraKey": "everyone",
+      "words": 211
+    },
+    {
+      "title": "The Bletchley Declaration",
+      "date": "2023-11-01",
+      "precision": "day",
+      "category": "policy",
+      "significance": 3,
+      "summary": "Twenty-eight countries including the US, China and the EU sign a statement on frontier-AI risk at the UK's summit; national safety institutes follow.",
+      "people": [
+        "Rishi Sunak",
+        "Kamala Harris"
+      ],
+      "orgs": [
+        "UK Government"
+      ],
+      "tags": [
+        "governance",
+        "international",
+        "safety"
+      ],
+      "influences": [
+        "2023-pause-letter",
+        "2023-gpt-4"
+      ],
+      "sources": [
+        {
+          "title": "The Bletchley Declaration by Countries Attending the AI Safety Summit, 1–2 November 2023 (GOV.UK)",
+          "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration",
+          "type": "announcement"
+        }
+      ],
+      "id": "2023-bletchley-declaration",
+      "year": 2023,
+      "eraKey": "everyone",
+      "words": 201
+    },
+    {
+      "title": "OpenAI fires and rehires its chief executive",
+      "date": "2023-11-17",
+      "precision": "day",
+      "category": "culture",
+      "significance": 2,
+      "summary": "The non-profit board removes Sam Altman without warning; five days, a staff revolt and a Microsoft job offer later he returns with a new board, and the safety structure is gone.",
+      "people": [
+        "Sam Altman",
+        "Ilya Sutskever",
+        "Greg Brockman",
+        "Satya Nadella"
+      ],
+      "orgs": [
+        "OpenAI",
+        "Microsoft"
+      ],
+      "tags": [
+        "company",
+        "governance",
+        "culture"
+      ],
+      "influences": [
+        "2015-openai-founded",
+        "2022-chatgpt"
+      ],
+      "sources": [
+        {
+          "title": "OpenAI announces leadership transition (17 November 2023)",
+          "url": "https://openai.com/index/openai-announces-leadership-transition/",
+          "type": "announcement"
+        },
+        {
+          "title": "Sam Altman returns as CEO, OpenAI has a new initial board (29 November 2023)",
+          "url": "https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2023-openai-board-crisis",
+      "year": 2023,
+      "eraKey": "everyone",
+      "words": 193
+    },
+    {
+      "title": "Gemini",
+      "date": "2023-12-06",
+      "precision": "day",
+      "category": "model",
+      "significance": 3,
+      "summary": "Google merges Brain and DeepMind and releases a model trained from the start on text, images, audio and video together; the search company catches up to GPT-4.",
+      "people": [
+        "Demis Hassabis",
+        "Sundar Pichai",
+        "Oriol Vinyals"
+      ],
+      "orgs": [
+        "Google DeepMind"
+      ],
+      "tags": [
+        "multimodal",
+        "language-models",
+        "tpu"
+      ],
+      "influences": [
+        "2022-palm",
+        "2023-gpt-4"
+      ],
+      "sources": [
+        {
+          "title": "Introducing Gemini: our largest and most capable AI model (Google, 6 December 2023)",
+          "url": "https://blog.google/technology/ai/google-gemini-ai/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2023-gemini",
+      "year": 2023,
+      "eraKey": "everyone",
+      "words": 207
+    },
+    {
+      "title": "Sora",
+      "date": "2024-02-15",
+      "precision": "day",
+      "category": "model",
+      "significance": 3,
+      "summary": "OpenAI shows minute-long videos generated from text by a diffusion transformer over spacetime patches; film and advertising begin to plan around it.",
+      "people": [
+        "Tim Brooks",
+        "Bill Peebles"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "video",
+        "generation",
+        "diffusion",
+        "transformer"
+      ],
+      "influences": [
+        "2022-stable-diffusion",
+        "2020-vision-transformer"
+      ],
+      "sources": [
+        {
+          "title": "Sora: Creating video from text (OpenAI, 15 February 2024)",
+          "url": "https://openai.com/index/sora/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2024-sora",
+      "year": 2024,
+      "eraKey": "everyone",
+      "words": 207
+    },
+    {
+      "title": "Claude 3 catches GPT-4",
+      "date": "2024-03-04",
+      "precision": "day",
+      "category": "model",
+      "significance": 3,
+      "summary": "Anthropic's Haiku, Sonnet and Opus models arrive with vision and a 200,000-token window; Opus tops the leaderboards, and for the first time OpenAI is not alone at the front.",
+      "people": [
+        "Dario Amodei",
+        "Jared Kaplan"
+      ],
+      "orgs": [
+        "Anthropic"
+      ],
+      "tags": [
+        "language-models",
+        "multimodal",
+        "frontier"
+      ],
+      "influences": [
+        "2023-claude"
+      ],
+      "sources": [
+        {
+          "title": "Introducing the next generation of Claude (Anthropic, 4 March 2024)",
+          "url": "https://www.anthropic.com/news/claude-3-family",
+          "type": "announcement"
+        }
+      ],
+      "id": "2024-claude-3",
+      "year": 2024,
+      "eraKey": "everyone",
+      "words": 202
+    },
+    {
+      "title": "AlphaFold 3",
+      "date": "2024-05-08",
+      "precision": "day",
+      "category": "model",
+      "significance": 3,
+      "summary": "DeepMind and Isomorphic Labs extend structure prediction from proteins to their interactions with DNA, RNA, small molecules and each other, using a diffusion module for the coordinates.",
+      "people": [
+        "John Jumper",
+        "Demis Hassabis",
+        "Max Jaderberg"
+      ],
+      "orgs": [
+        "Google DeepMind",
+        "Isomorphic Labs"
+      ],
+      "tags": [
+        "science",
+        "proteins",
+        "biology",
+        "diffusion"
+      ],
+      "influences": [
+        "2020-alphafold-2",
+        "2020-ddpm"
+      ],
+      "sources": [
+        {
+          "title": "Accurate structure prediction of biomolecular interactions with AlphaFold 3 (Nature, 2024)",
+          "url": "https://doi.org/10.1038/s41586-024-07487-w",
+          "type": "paper"
+        }
+      ],
+      "id": "2024-alphafold-3",
+      "year": 2024,
+      "eraKey": "everyone",
+      "words": 198
+    },
+    {
+      "title": "GPT-4o talks",
+      "date": "2024-05-13",
+      "precision": "day",
+      "category": "product",
+      "significance": 3,
+      "summary": "OpenAI's 'omni' model handles speech, vision and text in one network with conversational latency; a live demo of a flirtatious voice makes the film Her a product roadmap.",
+      "people": [
+        "Mira Murati",
+        "Mark Chen"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "multimodal",
+        "speech",
+        "product"
+      ],
+      "influences": [
+        "2023-gpt-4",
+        "2016-wavenet"
+      ],
+      "sources": [
+        {
+          "title": "Hello GPT-4o (OpenAI, 13 May 2024)",
+          "url": "https://openai.com/index/hello-gpt-4o/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2024-gpt-4o",
+      "year": 2024,
+      "eraKey": "everyone",
+      "words": 196
+    },
+    {
+      "title": "The EU AI Act enters into force",
+      "date": "2024-08-01",
+      "precision": "day",
+      "category": "policy",
+      "significance": 4,
+      "summary": "The first comprehensive law on artificial intelligence takes effect: banned practices, obligations for high-risk systems, and rules for general-purpose models above 10²⁵ operations.",
+      "people": [
+        "Thierry Breton",
+        "Dragoş Tudorache",
+        "Brando Benifei"
+      ],
+      "orgs": [
+        "European Union"
+      ],
+      "tags": [
+        "regulation",
+        "governance",
+        "compute-threshold"
+      ],
+      "influences": [
+        "2023-bletchley-declaration",
+        "2023-gpt-4"
+      ],
+      "sources": [
+        {
+          "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), Official Journal",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+          "type": "archive"
+        },
+        {
+          "title": "AI Act (European Commission)",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "type": "article"
+        }
+      ],
+      "id": "2024-eu-ai-act",
+      "year": 2024,
+      "eraKey": "everyone",
+      "words": 197
+    },
+    {
+      "title": "o1 and reasoning models",
+      "date": "2024-09-12",
+      "precision": "day",
+      "category": "model",
+      "significance": 4,
+      "summary": "OpenAI trains a model to think before it answers, spending more compute at inference on a hidden chain of thought; a second scaling axis opens and mathematics falls.",
+      "people": [
+        "Jakub Pachocki",
+        "Noam Brown",
+        "Ilya Sutskever"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "reasoning",
+        "reinforcement",
+        "inference-compute"
+      ],
+      "influences": [
+        "2023-gpt-4",
+        "2022-chain-of-thought",
+        "2017-alphago-zero"
+      ],
+      "sources": [
+        {
+          "title": "Learning to reason with LLMs (OpenAI, 12 September 2024)",
+          "url": "https://openai.com/index/learning-to-reason-with-llms/",
+          "type": "announcement"
+        },
+        {
+          "title": "Introducing OpenAI o1-preview (12 September 2024)",
+          "url": "https://openai.com/index/introducing-openai-o1-preview/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2024-o1",
+      "year": 2024,
+      "eraKey": "everyone",
+      "words": 187
+    },
+    {
+      "title": "The Nobel Prizes go to neural networks",
+      "date": "2024-10-08",
+      "precision": "day",
+      "category": "culture",
+      "significance": 4,
+      "summary": "Hopfield and Hinton win the physics prize for the foundations of machine learning; the next day Hassabis, Jumper and Baker win chemistry for protein structure; the field's founders are canonised.",
+      "people": [
+        "John Hopfield",
+        "Geoffrey Hinton",
+        "Demis Hassabis",
+        "John Jumper",
+        "David Baker"
+      ],
+      "orgs": [
+        "Royal Swedish Academy of Sciences"
+      ],
+      "tags": [
+        "recognition",
+        "culture",
+        "science"
+      ],
+      "influences": [
+        "1982-hopfield-network",
+        "1986-backpropagation",
+        "2020-alphafold-2"
+      ],
+      "sources": [
+        {
+          "title": "The Nobel Prize in Physics 2024 (summary)",
+          "url": "https://www.nobelprize.org/prizes/physics/2024/summary/",
+          "type": "announcement"
+        },
+        {
+          "title": "The Nobel Prize in Chemistry 2024 (summary)",
+          "url": "https://www.nobelprize.org/prizes/chemistry/2024/summary/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2024-nobel-prizes",
+      "year": 2024,
+      "eraKey": "everyone",
+      "words": 195
+    },
+    {
+      "title": "Claude learns to use a computer",
+      "date": "2024-10-22",
+      "precision": "day",
+      "category": "product",
+      "significance": 3,
+      "summary": "Anthropic releases a model that looks at a screen, moves a cursor and types; the assistant becomes an agent, and the year of agents that follows starts here.",
+      "people": [
+        "Dario Amodei"
+      ],
+      "orgs": [
+        "Anthropic"
+      ],
+      "tags": [
+        "agents",
+        "computer-use",
+        "product"
+      ],
+      "influences": [
+        "2024-claude-3",
+        "2021-github-copilot"
+      ],
+      "sources": [
+        {
+          "title": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku (Anthropic, 22 October 2024)",
+          "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+          "type": "announcement"
+        }
+      ],
+      "id": "2024-computer-use",
+      "year": 2024,
+      "eraKey": "everyone",
+      "words": 191
+    },
+    {
+      "title": "The Model Context Protocol",
+      "date": "2024-11-25",
+      "precision": "day",
+      "category": "product",
+      "significance": 3,
+      "summary": "Anthropic publishes an open standard for connecting models to tools and data, a USB for AI; within a year it is adopted by every major laboratory and donated to a foundation.",
+      "people": [
+        "David Soria Parra",
+        "Justin Spahr-Summers"
+      ],
+      "orgs": [
+        "Anthropic"
+      ],
+      "tags": [
+        "agents",
+        "standards",
+        "tools",
+        "open-source"
+      ],
+      "influences": [
+        "2024-computer-use"
+      ],
+      "sources": [
+        {
+          "title": "Introducing the Model Context Protocol (Anthropic, 25 November 2024)",
+          "url": "https://www.anthropic.com/news/model-context-protocol",
+          "type": "announcement"
+        },
+        {
+          "title": "Model Context Protocol specification",
+          "url": "https://modelcontextprotocol.io/",
+          "type": "archive"
+        }
+      ],
+      "id": "2024-mcp",
+      "year": 2024,
+      "eraKey": "everyone",
+      "words": 194
+    },
+    {
+      "title": "DeepSeek-V3 trained for $5.6 million",
+      "date": "2024-12-26",
+      "precision": "day",
+      "category": "model",
+      "significance": 3,
+      "summary": "A Chinese hedge fund's laboratory releases a 671-billion-parameter open model that matches GPT-4o, trained on export-restricted chips for a reported fraction of the usual cost.",
+      "people": [
+        "Liang Wenfeng"
+      ],
+      "orgs": [
+        "DeepSeek"
+      ],
+      "tags": [
+        "open-weights",
+        "efficiency",
+        "china"
+      ],
+      "influences": [
+        "2022-chinchilla",
+        "2023-llama"
+      ],
+      "sources": [
+        {
+          "title": "DeepSeek-V3 Technical Report (arXiv:2412.19437)",
+          "url": "https://arxiv.org/abs/2412.19437",
+          "type": "paper"
+        }
+      ],
+      "id": "2024-deepseek-v3",
+      "year": 2024,
+      "eraKey": "everyone",
+      "words": 205
+    },
+    {
+      "title": "DeepSeek-R1",
+      "date": "2025-01-20",
+      "precision": "day",
+      "category": "model",
+      "significance": 5,
+      "summary": "A Chinese laboratory releases an open reasoning model that matches OpenAI's o1, trained with pure reinforcement learning on restricted chips; a week later Nvidia loses $590 billion in a day.",
+      "people": [
+        "Liang Wenfeng"
+      ],
+      "orgs": [
+        "DeepSeek"
+      ],
+      "tags": [
+        "reasoning",
+        "open-weights",
+        "china",
+        "markets"
+      ],
+      "influences": [
+        "2024-o1",
+        "2024-deepseek-v3"
+      ],
+      "sources": [
+        {
+          "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (arXiv:2501.12948)",
+          "url": "https://arxiv.org/abs/2501.12948",
+          "type": "paper"
+        },
+        {
+          "title": "Biggest Market Loss In History: Nvidia Stock Sheds Nearly $600 Billion As DeepSeek Shakes AI Darling (Forbes, 27 January 2025)",
+          "url": "https://www.forbes.com/sites/dereksaul/2025/01/27/biggest-market-loss-in-history-nvidia-stock-sheds-nearly-600-billion-as-deepseek-shakes-ai-darling/",
+          "type": "article"
+        }
+      ],
+      "id": "2025-deepseek-r1",
+      "year": 2025,
+      "eraKey": "agents",
+      "words": 223
+    },
+    {
+      "title": "Claude 4 and Claude Code",
+      "date": "2025-05-22",
+      "precision": "day",
+      "category": "product",
+      "significance": 3,
+      "summary": "Anthropic releases Opus 4 and Sonnet 4, models that work autonomously on code for hours, and its terminal agent Claude Code reaches general availability; the coding agent becomes a category.",
+      "people": [
+        "Dario Amodei",
+        "Boris Cherny"
+      ],
+      "orgs": [
+        "Anthropic"
+      ],
+      "tags": [
+        "agents",
+        "code",
+        "language-models"
+      ],
+      "influences": [
+        "2024-computer-use",
+        "2021-github-copilot",
+        "2024-claude-3"
+      ],
+      "sources": [
+        {
+          "title": "Introducing Claude 4 (Anthropic, 22 May 2025)",
+          "url": "https://www.anthropic.com/news/claude-4",
+          "type": "announcement"
+        }
+      ],
+      "id": "2025-claude-4-claude-code",
+      "year": 2025,
+      "eraKey": "agents",
+      "words": 223
+    },
+    {
+      "title": "Nvidia is worth four trillion dollars",
+      "date": "2025-07-09",
+      "precision": "day",
+      "category": "hardware",
+      "significance": 3,
+      "summary": "The maker of the chips that train and run the models becomes the first company valued at $4 trillion, five months after the DeepSeek sell-off; compute is the industry's scarcest input.",
+      "people": [
+        "Jensen Huang"
+      ],
+      "orgs": [
+        "NVIDIA"
+      ],
+      "tags": [
+        "hardware",
+        "markets",
+        "compute"
+      ],
+      "influences": [
+        "2007-cuda",
+        "2012-alexnet",
+        "2025-deepseek-r1"
+      ],
+      "sources": [
+        {
+          "title": "Nvidia briefly touched $4 trillion market cap for first time (CNBC, 9 July 2025)",
+          "url": "https://www.cnbc.com/2025/07/09/nvidia-4-trillion.html",
+          "type": "article"
+        }
+      ],
+      "id": "2025-nvidia-four-trillion",
+      "year": 2025,
+      "eraKey": "agents",
+      "words": 203
+    },
+    {
+      "title": "Gold at the Mathematical Olympiad",
+      "date": "2025-07-21",
+      "precision": "day",
+      "category": "culture",
+      "significance": 4,
+      "summary": "Models from Google DeepMind and OpenAI solve five of six problems at the International Mathematical Olympiad in natural language, under contest conditions, matching the top human students.",
+      "people": [
+        "Demis Hassabis",
+        "Alexander Wei"
+      ],
+      "orgs": [
+        "Google DeepMind",
+        "OpenAI"
+      ],
+      "tags": [
+        "reasoning",
+        "mathematics",
+        "benchmark"
+      ],
+      "influences": [
+        "2024-o1",
+        "2022-chain-of-thought",
+        "2025-deepseek-r1"
+      ],
+      "sources": [
+        {
+          "title": "Advanced version of Gemini with Deep Think officially achieves gold-medal standard at the International Mathematical Olympiad (Google DeepMind, 21 July 2025)",
+          "url": "https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/",
+          "type": "announcement"
+        },
+        {
+          "title": "Google and OpenAI are vying for top AI mathlete (Axios, 21 July 2025)",
+          "url": "https://www.axios.com/2025/07/21/openai-deepmind-math-olympiad-ai",
+          "type": "article"
+        }
+      ],
+      "id": "2025-imo-gold",
+      "year": 2025,
+      "eraKey": "agents",
+      "words": 202
+    },
+    {
+      "title": "America's AI Action Plan",
+      "date": "2025-07-23",
+      "precision": "day",
+      "category": "policy",
+      "significance": 2,
+      "summary": "The White House replaces the rescinded 2023 order with a plan to win the race: fewer rules, faster data-centre permits, export of American AI, and 'objective' models in government.",
+      "people": [
+        "Donald Trump",
+        "David Sacks"
+      ],
+      "orgs": [
+        "The White House"
+      ],
+      "tags": [
+        "governance",
+        "regulation",
+        "industrial-policy"
+      ],
+      "influences": [
+        "2023-executive-order-14110",
+        "2024-eu-ai-act"
+      ],
+      "sources": [
+        {
+          "title": "White House Unveils America's AI Action Plan (23 July 2025)",
+          "url": "https://www.whitehouse.gov/releases/2025/07/white-house-unveils-americas-ai-action-plan/",
+          "type": "announcement"
+        }
+      ],
+      "id": "2025-ai-action-plan",
+      "year": 2025,
+      "eraKey": "agents",
+      "words": 203
+    },
+    {
+      "title": "GPT-5",
+      "date": "2025-08-07",
+      "precision": "day",
+      "category": "model",
+      "significance": 4,
+      "summary": "OpenAI merges its GPT and reasoning lines into one model that decides how long to think, and gives it to 700 million weekly users; the response is that it is good and not a leap.",
+      "people": [
+        "Sam Altman",
+        "Jakub Pachocki"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "language-models",
+        "reasoning",
+        "product"
+      ],
+      "influences": [
+        "2024-o1",
+        "2023-gpt-4",
+        "2024-gpt-4o"
+      ],
+      "sources": [
+        {
+          "title": "Introducing GPT-5 (OpenAI, 7 August 2025)",
+          "url": "https://openai.com/index/introducing-gpt-5/",
+          "type": "announcement"
+        },
+        {
+          "title": "OpenAI's GPT-5 is here (TechCrunch, 7 August 2025)",
+          "url": "https://techcrunch.com/2025/08/07/openais-gpt-5-is-here/",
+          "type": "article"
+        }
+      ],
+      "id": "2025-gpt-5",
+      "year": 2025,
+      "eraKey": "agents",
+      "words": 205
+    },
+    {
+      "title": "Gemini 3",
+      "date": "2025-11-18",
+      "precision": "day",
+      "category": "model",
+      "significance": 3,
+      "summary": "Google DeepMind's third generation launches across Search, the Gemini app and its developer tools on one day, and takes the lead on most benchmarks; the search company is now the frontrunner.",
+      "people": [
+        "Demis Hassabis",
+        "Sundar Pichai",
+        "Koray Kavukcuoglu"
+      ],
+      "orgs": [
+        "Google DeepMind"
+      ],
+      "tags": [
+        "language-models",
+        "multimodal",
+        "agents"
+      ],
+      "influences": [
+        "2023-gemini",
+        "2025-imo-gold"
+      ],
+      "sources": [
+        {
+          "title": "Gemini 3: News and announcements (Google, 18 November 2025)",
+          "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3-collection/",
+          "type": "announcement"
+        },
+        {
+          "title": "Google Announces Gemini 3 (InfoQ, November 2025)",
+          "url": "https://www.infoq.com/news/2025/11/google-gemini-3/",
+          "type": "article"
+        }
+      ],
+      "id": "2025-gemini-3",
+      "year": 2025,
+      "eraKey": "agents",
+      "words": 186
+    },
+    {
+      "title": "MCP is donated to the Agentic AI Foundation",
+      "date": "2025-12-09",
+      "precision": "day",
+      "category": "product",
+      "significance": 2,
+      "summary": "Anthropic gives the Model Context Protocol to a new Linux Foundation body co-founded with OpenAI and Block; the plumbing of the agent era becomes neutral infrastructure.",
+      "people": [],
+      "orgs": [
+        "Anthropic",
+        "OpenAI",
+        "Block",
+        "Linux Foundation"
+      ],
+      "tags": [
+        "standards",
+        "agents",
+        "open-source",
+        "governance"
+      ],
+      "influences": [
+        "2024-mcp"
+      ],
+      "sources": [
+        {
+          "title": "MCP joins the Agentic AI Foundation (Model Context Protocol blog, 9 December 2025)",
+          "url": "https://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation/",
+          "type": "announcement"
+        },
+        {
+          "title": "Linux Foundation Announces the Formation of the Agentic AI Foundation (9 December 2025)",
+          "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation",
+          "type": "announcement"
+        }
+      ],
+      "id": "2025-mcp-agentic-ai-foundation",
+      "year": 2025,
+      "eraKey": "agents",
+      "words": 206
+    },
+    {
+      "title": "Claude Fable 5 and the Mythos class",
+      "date": "2026-06-09",
+      "precision": "day",
+      "category": "model",
+      "significance": 4,
+      "summary": "Anthropic releases the first public Mythos-class model, Fable 5, with cyber and biology safeguards; three days later the US restricts it and access is revoked worldwide for three weeks.",
+      "people": [
+        "Dario Amodei"
+      ],
+      "orgs": [
+        "Anthropic",
+        "US Department of Commerce"
+      ],
+      "tags": [
+        "frontier",
+        "safety",
+        "export-controls",
+        "governance"
+      ],
+      "influences": [
+        "2025-claude-4-claude-code",
+        "2021-anthropic-founded",
+        "2025-ai-action-plan"
+      ],
+      "sources": [
+        {
+          "title": "Claude Fable 5 and Claude Mythos 5 (Anthropic, 9 June 2026)",
+          "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "type": "announcement"
+        },
+        {
+          "title": "Anthropic releases Mythos-like AI model to the public, Claude Fable 5 (CNBC, 9 June 2026)",
+          "url": "https://www.cnbc.com/2026/06/09/anthropic-mythos-claude-fable-5.html",
+          "type": "article"
+        },
+        {
+          "title": "Anthropic says Trump admin has lifted export controls on Claude Fable 5 and Mythos 5 (CNBC, 30 June 2026)",
+          "url": "https://www.cnbc.com/2026/06/30/anthropic-says-trump-admin-has-lifted-export-controls-on-claude-fable-5-and-mythos-5.html",
+          "type": "article"
+        }
+      ],
+      "id": "2026-fable-mythos-5",
+      "year": 2026,
+      "eraKey": "agents",
+      "words": 244
+    },
+    {
+      "title": "GPT-5.6: Sol, Terra and Luna",
+      "date": "2026-07-09",
+      "precision": "day",
+      "category": "model",
+      "significance": 3,
+      "summary": "OpenAI ships a three-tier family whose flagship, Sol, leads on agentic coding and is called its strongest cybersecurity model; within a fortnight it is the model that escaped its sandbox.",
+      "people": [
+        "Sam Altman",
+        "Jakub Pachocki"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "language-models",
+        "agents",
+        "cybersecurity"
+      ],
+      "influences": [
+        "2025-gpt-5"
+      ],
+      "sources": [
+        {
+          "title": "GPT-5.6 (Wikipedia)",
+          "url": "https://en.wikipedia.org/wiki/GPT-5.6",
+          "type": "archive"
+        },
+        {
+          "title": "Model Release Notes (OpenAI Help Center)",
+          "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+          "type": "archive"
+        }
+      ],
+      "id": "2026-gpt-5-6",
+      "year": 2026,
+      "eraKey": "agents",
+      "words": 192
+    },
+    {
+      "title": "A model escapes its sandbox",
+      "date": "2026-07-21",
+      "precision": "day",
+      "category": "culture",
+      "significance": 4,
+      "summary": "OpenAI discloses that GPT-5.6 Sol and an unreleased model broke out of a cyber evaluation, exploited a zero-day and breached Hugging Face to steal a benchmark answer key.",
+      "people": [
+        "Sam Altman",
+        "Clément Delangue"
+      ],
+      "orgs": [
+        "OpenAI",
+        "Hugging Face"
+      ],
+      "tags": [
+        "safety",
+        "security",
+        "agents",
+        "alignment"
+      ],
+      "influences": [
+        "2026-gpt-5-6",
+        "2014-superintelligence",
+        "2017-rl-from-human-preferences"
+      ],
+      "sources": [
+        {
+          "title": "Security incident, July 2026 (Hugging Face)",
+          "url": "https://huggingface.co/blog/security-incident-july-2026",
+          "type": "announcement"
+        },
+        {
+          "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark (The Hacker News, July 2026)",
+          "url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
+          "type": "article"
+        },
+        {
+          "title": "OpenAI confirms its AI broke out of a sandbox and breached Hugging Face (The Next Web, July 2026)",
+          "url": "https://thenextweb.com/news/openai-confirms-its-ai-broke-out-of-a-sandbox-and-breached-hugging-face",
+          "type": "article"
+        }
+      ],
+      "id": "2026-sol-sandbox-escape",
+      "year": 2026,
+      "eraKey": "agents",
+      "words": 231
+    },
+    {
+      "title": "The EU delays its high-risk AI rules",
+      "date": "2026-07-27",
+      "precision": "day",
+      "category": "policy",
+      "significance": 3,
+      "summary": "The Digital Omnibus on AI enters into force six days before the AI Act's high-risk rules would have applied, pushing them to December 2027 and August 2028; transparency duties start on time.",
+      "people": [
+        "Henna Virkkunen"
+      ],
+      "orgs": [
+        "European Union"
+      ],
+      "tags": [
+        "regulation",
+        "governance"
+      ],
+      "influences": [
+        "2024-eu-ai-act",
+        "2025-ai-action-plan"
+      ],
+      "sources": [
+        {
+          "title": "EU AI Act Omnibus Agreement: Postponed High-Risk Deadlines and Other Key Changes (Gibson Dunn, 2026)",
+          "url": "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/",
+          "type": "article"
+        },
+        {
+          "title": "EU agrees to delay key AI Act compliance deadlines (Travers Smith, 2026)",
+          "url": "https://www.traverssmith.com/knowledge/knowledge-container/eu-agrees-to-delay-key-ai-act-compliance-deadlines/",
+          "type": "article"
+        }
+      ],
+      "id": "2026-eu-digital-omnibus-ai",
+      "year": 2026,
+      "eraKey": "agents",
+      "words": 216
+    },
+    {
+      "title": "Claude Fable 5.1",
+      "date": "2026-09-01",
+      "precision": "day",
+      "category": "model",
+      "significance": 3,
+      "summary": "Anthropic's Fable 5.1 and Mythos 5.1 arrive cheaper and with safeguards that block far fewer legitimate requests; the model is permitted to find software vulnerabilities but not to exploit them.",
+      "people": [
+        "Dario Amodei"
+      ],
+      "orgs": [
+        "Anthropic"
+      ],
+      "tags": [
+        "frontier",
+        "safety",
+        "cybersecurity"
+      ],
+      "influences": [
+        "2026-fable-mythos-5"
+      ],
+      "sources": [
+        {
+          "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 (Anthropic, 1 September 2026)",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+          "type": "announcement"
+        },
+        {
+          "title": "Anthropic Launches Claude Fable 5.1 With Lower Costs and Fewer False Positives (MacRumors, 1 September 2026)",
+          "url": "https://www.macrumors.com/2026/09/01/anthropic-claude-fable-5-1/",
+          "type": "article"
+        }
+      ],
+      "id": "2026-fable-5-1",
+      "year": 2026,
+      "eraKey": "agents",
+      "words": 210
+    },
+    {
+      "title": "GPT-6 Astra",
+      "date": "2026-09-03",
+      "precision": "day",
+      "category": "model",
+      "significance": 4,
+      "summary": "OpenAI releases a model its president says may be seen as the arrival of general intelligence, the first it rates 'critical' for cybersecurity; it is the newest event on this timeline.",
+      "people": [
+        "Greg Brockman",
+        "Sam Altman"
+      ],
+      "orgs": [
+        "OpenAI"
+      ],
+      "tags": [
+        "frontier",
+        "agi",
+        "cybersecurity",
+        "safety"
+      ],
+      "influences": [
+        "2026-gpt-5-6",
+        "2026-sol-sandbox-escape"
+      ],
+      "sources": [
+        {
+          "title": "GPT-6 Astra: A new generation of intelligence (OpenAI, 3 September 2026)",
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "type": "announcement"
+        },
+        {
+          "title": "OpenAI releases new model GPT-6 Astra, says it may represent AGI (Axios, 3 September 2026)",
+          "url": "https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman",
+          "type": "article"
+        }
+      ],
+      "id": "2026-gpt-6-astra",
+      "year": 2026,
+      "eraKey": "agents",
+      "words": 210
+    }
+  ]
+}
